@@ -1,1 +1,1 @@
-alert('hellp')
+import "./style.scss";

@@ -2,13 +2,18 @@
   "name": "ibworkout",
   "version": "1.0.0",
   "description": "Ina Bogdan Personal trainer",
+  "repository": "https://github.com/vmwhoami/ibworkout",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "webpack"
   },
   "author": "Vitalie Melnic",
   "license": "ISC",
   "devDependencies": {
+    "css-loader": "^5.0.1",
+    "sass": "^1.30.0",
+    "sass-loader": "^10.1.0",
+    "style-loader": "^2.0.0",
     "webpack": "^5.10.0",
     "webpack-cli": "^4.2.0"
   }
