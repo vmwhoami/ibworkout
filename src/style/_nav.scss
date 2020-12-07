@@ -11,6 +11,7 @@
   padding: 0 5rem 0  5rem;
 
   &__logo{
+    color: blue;
     font-size: 3rem;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   }
@@ -20,12 +21,51 @@
     list-style: none;
     font-size: 2rem;
     font-family:$futuraMd ;
- 
+    height: 100%;
+
   }
 
+
+
   &__lsitem{
+    display: inline-flex;
+    height: 100%;
+    justify-content: center;
+    text-decoration: none;
+    color: black;
     margin: 0 1rem 0 1rem;
     cursor: pointer;
+    position: relative;
+    height: 100%;
+    align-items: center;
+
+  
+
+    &::after{
+      content: '';
+      position: absolute;
+      left: 0;
+      bottom: 50%;
+      opacity: 0;
+      width: 100%;
+      height: 100%;
+      border-bottom: 1px solid #b53b45;
+      -webkit-box-shadow: inset 0px -1px 0px 0px #b53b45;
+      -moz-box-shadow: inset 0px -1px 0px 0px #b53b45;
+      box-shadow: inset 0px -1px 0px 0px #b53b45;
+      -webkit-transition: all 0.3s ease;
+      transition: all 0.3s ease;
+    }
+      &:hover a {
+   
+        color:#b53b45 ;
+      }
+
+      &:hover::after{
+          bottom: 30%;
+          opacity: 100%;
+      }
+    
   }
 
   &__roundbtn{
@@ -36,3 +76,6 @@
     border-radius: 50%;
   }
 }
+
+
+ 
