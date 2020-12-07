@@ -11,16 +11,28 @@
   padding: 0 5rem 0  5rem;
 
   &__logo{
-
+    font-size: 3rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   }
 
   &__list{
     display: flex;
-
+    list-style: none;
+    font-size: 2rem;
+    font-family:$futuraMd ;
+ 
   }
 
   &__lsitem{
-
+    margin: 0 1rem 0 1rem;
+    cursor: pointer;
   }
 
+  &__roundbtn{
+    display: inline-block;
+    width: 3rem;
+    height: 3rem;
+    background-color: #000000;
+    border-radius: 50%;
+  }
 }
