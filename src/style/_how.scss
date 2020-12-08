@@ -1,0 +1,35 @@
+.how{
+  height: 100vh;
+ background-color: white;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+
+ &__h1{
+   padding-top: 2rem;
+   font-size: 2rem;
+   h1{
+    font-family: Arial, sans-serif;
+   }
+
+   p{
+     text-align: center;
+   }
+ }
+
+
+ &__description{
+ flex: 0 0 40rem;
+   color: #7F7F8D;
+ }
+
+ &__vidcont{
+  flex: 1 0 120rem;
+   margin-top: 3rem;
+   height: 70vh;
+ }
+ &__video{
+   width: 100%;
+   height: 100%;
+ }
+}

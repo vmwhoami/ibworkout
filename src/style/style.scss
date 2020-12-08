@@ -1,4 +1,4 @@
-@import "variables","nav","head","msging";
+@import "variables","nav","head","msging",'how';
 
 
 *{
@@ -9,6 +9,7 @@
 
 html {
   font-size: 62.5%; /* Now 10px = 1rem! */
+  scroll-behavior: smooth;
 }
 
 body {
@@ -19,3 +20,7 @@ body {
   font-family: $futuraMd;
 }
 
+.text-center{
+  font-family:  $futuraMd, Arial, sans-serif;
+  text-align: center;
+}
