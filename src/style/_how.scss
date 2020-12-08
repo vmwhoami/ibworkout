@@ -19,14 +19,16 @@
 
 
  &__description{
- flex: 0 0 40rem;
-   color: #7F7F8D;
+    color: #7F7F8D;
+     width: 120rem;
+      
  }
 
  &__vidcont{
   flex: 1 0 120rem;
+  height: 70vh;
    margin-top: 3rem;
-   height: 70vh;
+    
  }
  &__video{
    width: 100%;
