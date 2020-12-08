@@ -20,6 +20,24 @@
    left: 50%;
    transform: translate(-50%,-50%);
    color: white;
+   max-width: 110rem;
+   text-align: center;
+
  }
 
+ &__h1{
+ 
+
+  font-family: $futuraBd, Arial, sans-serif;
+  font-size: 6rem;
+ }
+
+ &__btn{
+   background-color: #ff8562;
+ }
+
+ p{
+   font-size: 3rem;
+   font-family: $futuraMd, Arial, sans-serif;
+ }
 }
