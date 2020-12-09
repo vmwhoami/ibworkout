@@ -20,7 +20,16 @@ body {
   font-family: Arial, sans-serif;
 }
 
+.container{
+  display: flex;
+  flex-direction: column;
+ background-color: white;
+}
 .text-center{
   font-family:  $futuraMd, Arial, sans-serif;
   text-align: center;
+}
+
+.center{
+  align-self: center;
 }
