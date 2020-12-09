@@ -1,4 +1,4 @@
-@import "variables","nav","head","msging",'how','why','steps';
+@import "variables","nav","head","msging",'how','why','steps','messanging';
 
 
 *{
@@ -24,6 +24,7 @@ body {
   display: flex;
   flex-direction: column;
  background-color: white;
+ 
 }
 .text-center{
   font-family:  $futuraMd, Arial, sans-serif;
