@@ -29,5 +29,18 @@ let navbarFade = () => {
 }
 window.addEventListener('scroll', debounce(navbarFade))
 
+const phone = document.querySelector('.messanging__phone')
+const cover = document.querySelector('.messanging__cover')
+cover.addEventListener('click', e => {
+  let cover = e.target.parentElement
 
+  if (cover.classList.contains('hide')) {
+    return
+  } else {
+    cover.classList.add('hide')
+    phone.classList.add('translate50')
+  }
+
+
+})
 

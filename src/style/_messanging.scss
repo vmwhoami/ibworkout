@@ -40,15 +40,14 @@
     }
 
   &__phone{
-
+    transform: translateY(0);
+    transition: transform 1s;
   }
   &__messenger{
-    display: inline-flex;
-    justify-content: center;
+  
   }
   &__whatsapp{
-    display: inline-flex;
-    justify-content: center;
+    
   }
 
   &__svg{
@@ -59,4 +58,12 @@
 
 .fillgreen{
   fill: rgb(0, 216, 36);
+}
+
+.hide{
+  visibility: hidden;
+}
+
+.translate50{
+  transform: translateY(-20rem) !important;
 }
