@@ -38,6 +38,7 @@ cover.addEventListener('click', e => {
     return
   } else {
     cover.classList.add('hide')
+    phone.classList.left = 0;
     phone.classList.add('translate50')
   }
 

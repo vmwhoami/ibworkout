@@ -41,7 +41,7 @@
 
   &__phone{
     transform: translateY(0);
-    transition: transform 1s;
+    transition:  1s;
   }
   &__messenger{
   
@@ -66,4 +66,5 @@
 
 .translate50{
   transform: translateY(-20rem) !important;
+  left: 0 !important;
 }
