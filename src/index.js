@@ -4,44 +4,43 @@ import './style/style.scss';
 function debounce(func, wait = 10, immediate = true) {
   let timeout;
   return function () {
-    let contest = this, args = arguments;
-    let later = function () {
+    const contest = this; const
+      args = arguments;
+    const later = function () {
       timeout = null;
       if (!immediate) func.apply(contest, args);
     };
-    let callnow = immediate && !timeout;
+    const callnow = immediate && !timeout;
     clearTimeout(timeout);
     timeout = setTimeout(later, wait);
-    if (callnow) func.apply(contest, args)
-  }
+    if (callnow) func.apply(contest, args);
+  };
 }
 
 const nav = document.querySelector('.nav');
 
-let navbarFade = () => {
-
-  let scroll = window.pageYOffset;
+const navbarFade = () => {
+  const scroll = window.pageYOffset;
   if (scroll > 20) {
-    nav.classList.add("faded")
+    nav.classList.add('faded');
   } else {
-    nav.classList.remove("faded")
+    nav.classList.remove('faded');
   }
-}
-window.addEventListener('scroll', debounce(navbarFade))
+};
+window.addEventListener('scroll', debounce(navbarFade));
 
-const phone = document.querySelector('.messanging__phone')
-const cover = document.querySelector('.messanging__cover')
+const phone = document.querySelector('.messanging__phone');
+const cover = document.querySelector('.messanging__cover');
 cover.addEventListener('click', e => {
-  let cover = e.target.parentElement
+  const cover = e.target.parentElement;
 
   if (cover.classList.contains('hide')) {
-    return
+
   } else {
-    cover.classList.add('hide')
+    cover.classList.add('hide');
     phone.classList.left = 0;
-    phone.classList.add('translate50')
+    phone.classList.add('translate50');
   }
+});
 
-
-})
 
