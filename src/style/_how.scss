@@ -20,15 +20,21 @@
 
  &__description{
     color: #7F7F8D;
-     width: 120rem;
+ 
       
  }
 
  &__vidcont{
-  flex: 1 0 120rem;
+ flex: 1 1 80rem;
   height: 70vh;
-   margin-top: 3rem;
-    
+  margin-top: 3rem;
+ 
+ }
+
+ &__vid{
+width: 100%;
+height: 100%;
+
  }
  &__video{
    width: 100%;

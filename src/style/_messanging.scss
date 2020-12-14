@@ -1,5 +1,8 @@
 .messanging{
   position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   bottom: 10%;
   right: 6%;
   width: 7rem;
@@ -9,44 +12,39 @@
   background-color: white;
   z-index: 200;
   box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.3);
+  opacity: 100%;
+
+  &__checkbox{
+    // display: none;
+  }
+
+  &__checkbox:checked + &__label{
+    display: none;
+
+  }
+
+
+
 
   &__cover{
     position: absolute;
     width: 7rem;
     height: 7rem;
     border-radius: 50%;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
     cursor: pointer;
     background-color: rgb(23, 172, 3);
     z-index: 300;
   }
 
-    .shaper{
-      display: inline-flex;
-      justify-content: center;
-      align-items: center;
-      background-color: white;
-      width: 7rem;
-      height: 7rem;
-      border-radius: 50%;
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%,-50%);
-      box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.3);
-      cursor: pointer;
-    }
-
   &__phone{
-    transform: translateY(0);
-    transition:  1s;
+    position: absolute;
   }
   &__messenger{
+    position: absolute;
   
   }
   &__whatsapp{
+    position: absolute;
     
   }
 
@@ -56,15 +54,39 @@
   }
 }
 
+.shaper{
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  width: 7rem;
+  height: 7rem;
+  border-radius: 50%;
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+
 .fillgreen{
   fill: rgb(0, 216, 36);
 }
 
 .hide{
-  visibility: hidden;
+  opacity: 0;
+  transform: scaleY(0);
+  transition: opacity .3s;
 }
 
-.translate50{
-  transform: translateY(-20rem) !important;
-  left: 0 !important;
+.phone_tr{
+  transform: translateY(-9.5em);
+  transition: transform .2s;
+}
+
+.messanger_tr{
+  transform: translateY(-6rem)  ; 
+  transition: transform .2s;
+}
+
+.whatsapp_tr{
+  transform: translateY(-28rem)  ; 
+  transition: transform .2s;
 }
