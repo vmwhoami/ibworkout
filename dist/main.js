@@ -1,1 +1,237 @@
-(()=>{"use strict";var e,t,n,r={578:(e,t,n)=>{n.d(t,{Z:()=>_});var r=n(645),i=n.n(r),o=n(667),a=n.n(o),s=n(604),c=n(423),l=n(68),d=n(346),f=n(191),p=i()((function(e){return e[1]})),u=a()(s.Z),m=a()(c.Z),h=a()(l.Z),g=a()(d),b=a()(f);p.push([e.id,"@font-face{font-family:futura;src:url("+u+') format("opentype")}@font-face{font-family:futuralt;src:url('+m+') format("opentype")}@font-face{font-family:futurabd;src:url('+h+') format("opentype")}.white-color{color:#fff}.hcenter{margin:6rem 0;font-size:3.5rem;text-align:center;font-weight:600}.nav{position:fixed;top:0;left:0;width:100%;height:7rem;background-color:#f2f2f2;display:flex;justify-content:space-between;align-items:center;padding:0 5rem 0 5rem;z-index:2;box-shadow:rgba(0,0,0,.2) 0px 1px 3px;transition:background-color 1s}.nav__logo{color:blue;font-size:3rem;font-family:"Lucida Sans","Lucida Sans Regular","Lucida Grande","Lucida Sans Unicode",Geneva,Verdana,sans-serif}.nav__list{display:flex;list-style:none;font-size:2rem;font-family:futura,Arial,sans-serif;height:100%}.nav__lsitem{display:inline-flex;height:100%;justify-content:center;text-decoration:none;color:#000;margin:0 1rem 0 1rem;cursor:pointer;position:relative;height:100%;align-items:center}.nav__lsitem::after{content:"";position:absolute;left:0;bottom:50%;opacity:0;width:100%;height:100%;border-bottom:1px solid #b53b45;-webkit-box-shadow:inset 0px -1px 0px 0px #b53b45;-moz-box-shadow:inset 0px -1px 0px 0px #b53b45;box-shadow:inset 0px -1px 0px 0px #b53b45;-webkit-transition:all .3s ease;transition:all .3s ease}.nav__lsitem:hover{color:#b53b45}.nav__lsitem:hover::after{bottom:30%;opacity:100%}.nav__roundbtn{margin-right:1rem;display:inline-flex;justify-content:center;align-items:center;width:3.5rem;height:3.5rem;background-color:#000;border-radius:50%}.nav__svg{fill:#fff;width:2rem;height:2rem}.faded{background-color:rgba(255,255,255,.4)}.head{width:100%;height:100vh;overflow:hidden}.head__bg{width:100%;height:100vh;background:linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url('+g+");background-size:cover;background-repeat:no-repeat;position:relative;z-index:0;filter:blur(1px)}.head__container{position:absolute;top:50%;left:50%;transform:translate(-50%, -50%);color:#fff;max-width:110rem;text-align:center}.head__h1{font-family:futurabd,Arial,sans-serif,Arial,sans-serif;font-size:6rem}.head__btn{display:inline-block;margin-top:2rem;padding:1.5rem 4rem;background-color:#db0000;color:#fff;text-decoration:none;font-size:2rem;border-radius:2rem}.head p{font-size:2.5rem;font-family:futura,Arial,sans-serif,Arial,sans-serif}.how{height:100vh;background-color:#fff;display:flex;flex-direction:column;align-items:center}.how__h1{padding-top:2rem;font-size:2rem}.how__h1 h1{font-family:Arial,sans-serif}.how__h1 p{text-align:center}.how__description{color:#7f7f8d}.how__vidcont{width:80vw;height:70vh;margin-top:3rem}.how__vid{width:100%;height:100%}.how__video{width:100%;height:100%}.why{background-image:linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.6)),url("+b+");background-position:center;background-size:cover;background-repeat:no-repeat;padding:10rem 2rem}.why__heading{text-align:center;font-size:6rem;padding:2rem}.why__p{text-align:center;font-size:2.2rem}.why__container{margin-top:5rem;display:flex;flex-wrap:wrap;justify-content:center;text-align:center}.why__section{flex:0 1 40rem;display:flex;flex-direction:column;align-items:center}.why__img{width:10rem}.steps{max-width:120rem;margin:0 auto;display:flex;flex-wrap:wrap;justify-content:center;align-items:center}.steps__left{flex:1 1 15vw;display:flex;flex-direction:column;padding:1rem}.steps__wrapper{margin:4rem 1rem;display:flex}.steps__wrapper h4{margin-bottom:2rem}.steps__svgwrap{margin:2rem 1rem}.steps__svg{width:7rem;height:7rem}.steps__imgcon{flex:1 0 20vw}.steps__img{width:100%;height:100%}.steps__right{flex:1 1 15vw;display:flex;flex-direction:column;padding:1rem}.messanging{position:fixed;display:flex;justify-content:center;align-items:center;bottom:10%;right:6%;width:7rem;height:7rem;border-radius:50%;cursor:pointer;background-color:#fff;z-index:200;box-shadow:0px 0px 20px 0px rgba(0,0,0,.3);opacity:100%}.messanging__checkbox:checked+.messanging__label{display:none}.messanging__cover{position:absolute;width:7rem;height:7rem;border-radius:50%;cursor:pointer;background-color:#17ac03;z-index:300}.messanging__phone{position:absolute}.messanging__messenger{position:absolute}.messanging__whatsapp{position:absolute}.messanging__svg{width:5em;height:5rem}.shaper{display:inline-flex;justify-content:center;align-items:center;background-color:#fff;width:7rem;height:7rem;border-radius:50%;box-shadow:0px 0px 20px 0px rgba(0,0,0,.3);cursor:pointer}.fillgreen{fill:#00d824}.hide{opacity:0;transform:scaleY(0);transition:opacity .3s}.phone_tr{transform:translateY(-9.5em);transition:transform .2s}.messanger_tr{transform:translateY(-6rem);transition:transform .2s}.whatsapp_tr{transform:translateY(-28rem);transition:transform .2s}*{padding:0;margin:0;box-sizing:border-box}html{font-size:62.5%;scroll-behavior:smooth}body{font-size:16px;font-size:1.6rem;line-height:1.5;background-color:#000;font-family:Arial,sans-serif}.container{display:flex;flex-direction:column;background-color:#fff}.text-center{font-family:futura,Arial,sans-serif,Arial,sans-serif;text-align:center}.center{align-self:center}",""]);const _=p},645:e=>{e.exports=function(e){var t=[];return t.toString=function(){return this.map((function(t){var n=e(t);return t[2]?"@media ".concat(t[2]," {").concat(n,"}"):n})).join("")},t.i=function(e,n,r){"string"==typeof e&&(e=[[null,e,""]]);var i={};if(r)for(var o=0;o<this.length;o++){var a=this[o][0];null!=a&&(i[a]=!0)}for(var s=0;s<e.length;s++){var c=[].concat(e[s]);r&&i[c[0]]||(n&&(c[2]?c[2]="".concat(n," and ").concat(c[2]):c[2]=n),t.push(c))}},t}},667:e=>{e.exports=function(e,t){return t||(t={}),"string"!=typeof(e=e&&e.__esModule?e.default:e)?e:(/^['"].*['"]$/.test(e)&&(e=e.slice(1,-1)),t.hash&&(e+=t.hash),/["'() \t\n]/.test(e)||t.needQuotes?'"'.concat(e.replace(/"/g,'\\"').replace(/\n/g,"\\n"),'"'):e)}},68:(e,t,n)=>{n.d(t,{Z:()=>r});const r=n.p+"b22b8109a56a2445c366cb3b6d6740a9.otf"},423:(e,t,n)=>{n.d(t,{Z:()=>r});const r=n.p+"725c77b4e125ed776783530c13bd9dd6.otf"},604:(e,t,n)=>{n.d(t,{Z:()=>r});const r=n.p+"7af6976ce738bec1704e11c6c22da82c.otf"},379:(e,t,n)=>{var r,i=function(){var e={};return function(t){if(void 0===e[t]){var n=document.querySelector(t);if(window.HTMLIFrameElement&&n instanceof window.HTMLIFrameElement)try{n=n.contentDocument.head}catch(e){n=null}e[t]=n}return e[t]}}(),o=[];function a(e){for(var t=-1,n=0;n<o.length;n++)if(o[n].identifier===e){t=n;break}return t}function s(e,t){for(var n={},r=[],i=0;i<e.length;i++){var s=e[i],c=t.base?s[0]+t.base:s[0],l=n[c]||0,d="".concat(c," ").concat(l);n[c]=l+1;var f=a(d),p={css:s[1],media:s[2],sourceMap:s[3]};-1!==f?(o[f].references++,o[f].updater(p)):o.push({identifier:d,updater:h(p,t),references:1}),r.push(d)}return r}function c(e){var t=document.createElement("style"),r=e.attributes||{};if(void 0===r.nonce){var o=n.nc;o&&(r.nonce=o)}if(Object.keys(r).forEach((function(e){t.setAttribute(e,r[e])})),"function"==typeof e.insert)e.insert(t);else{var a=i(e.insert||"head");if(!a)throw new Error("Couldn't find a style target. This probably means that the value for the 'insert' parameter is invalid.");a.appendChild(t)}return t}var l,d=(l=[],function(e,t){return l[e]=t,l.filter(Boolean).join("\n")});function f(e,t,n,r){var i=n?"":r.media?"@media ".concat(r.media," {").concat(r.css,"}"):r.css;if(e.styleSheet)e.styleSheet.cssText=d(t,i);else{var o=document.createTextNode(i),a=e.childNodes;a[t]&&e.removeChild(a[t]),a.length?e.insertBefore(o,a[t]):e.appendChild(o)}}function p(e,t,n){var r=n.css,i=n.media,o=n.sourceMap;if(i?e.setAttribute("media",i):e.removeAttribute("media"),o&&"undefined"!=typeof btoa&&(r+="\n/*# sourceMappingURL=data:application/json;base64,".concat(btoa(unescape(encodeURIComponent(JSON.stringify(o))))," */")),e.styleSheet)e.styleSheet.cssText=r;else{for(;e.firstChild;)e.removeChild(e.firstChild);e.appendChild(document.createTextNode(r))}}var u=null,m=0;function h(e,t){var n,r,i;if(t.singleton){var o=m++;n=u||(u=c(t)),r=f.bind(null,n,o,!1),i=f.bind(null,n,o,!0)}else n=c(t),r=p.bind(null,n,t),i=function(){!function(e){if(null===e.parentNode)return!1;e.parentNode.removeChild(e)}(n)};return r(e),function(t){if(t){if(t.css===e.css&&t.media===e.media&&t.sourceMap===e.sourceMap)return;r(e=t)}else i()}}e.exports=function(e,t){(t=t||{}).singleton||"boolean"==typeof t.singleton||(t.singleton=(void 0===r&&(r=Boolean(window&&document&&document.all&&!window.atob)),r));var n=s(e=e||[],t);return function(e){if(e=e||[],"[object Array]"===Object.prototype.toString.call(e)){for(var r=0;r<n.length;r++){var i=a(n[r]);o[i].references--}for(var c=s(e,t),l=0;l<n.length;l++){var d=a(n[l]);0===o[d].references&&(o[d].updater(),o.splice(d,1))}n=c}}}},346:(e,t,n)=>{e.exports=n.p+"9e5b3cdb475c09d2ccea.jpeg"},191:(e,t,n)=>{e.exports=n.p+"2362b926301f717f3ed7.jpeg"}},i={};function o(e){if(i[e])return i[e].exports;var t=i[e]={id:e,exports:{}};return r[e](t,t.exports,o),t.exports}o.n=e=>{var t=e&&e.__esModule?()=>e.default:()=>e;return o.d(t,{a:t}),t},o.d=(e,t)=>{for(var n in t)o.o(t,n)&&!o.o(e,n)&&Object.defineProperty(e,n,{enumerable:!0,get:t[n]})},o.g=function(){if("object"==typeof globalThis)return globalThis;try{return this||new Function("return this")()}catch(e){if("object"==typeof window)return window}}(),o.o=(e,t)=>Object.prototype.hasOwnProperty.call(e,t),(()=>{var e;o.g.importScripts&&(e=o.g.location+"");var t=o.g.document;if(!e&&t&&(t.currentScript&&(e=t.currentScript.src),!e)){var n=t.getElementsByTagName("script");n.length&&(e=n[n.length-1].src)}if(!e)throw new Error("Automatic publicPath is not supported in this browser");e=e.replace(/#.*$/,"").replace(/\?.*$/,"").replace(/\/[^\/]+$/,"/"),o.p=e})(),e=o(379),t=o.n(e),n=o(578),t()(n.Z,{insert:"head",singleton:!1}),n.Z.locals,window.addEventListener("scroll",function(e,t=10,n=!0){let r;return()=>{const i=this,o=arguments,a=n&&!r;clearTimeout(r),r=setTimeout((()=>{r=null,n||e.apply(i,o)}),t),a&&e.apply(i,o)}}((()=>{const e=document.querySelector(".nav");window.pageYOffset>20?e.classList.add("faded"):e.classList.remove("faded")}))),function(){const e=document.querySelector(".messanging");document.querySelector(".messanging__cover"),document.querySelector(".messanging__phone"),document.querySelector(".messanging__messenger"),document.querySelector(".messanging__whatsapp"),e.addEventListener("click",(()=>{}))}()})();
+/*
+ * ATTENTION: The "eval" devtool has been used (maybe by default in mode: "development").
+ * This devtool is not neither made for production nor for readable output files.
+ * It uses "eval()" calls to create a separate source file in the browser devtools.
+ * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
+ * or disable the default devtool with "devtool: false".
+ * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
+ */
+/******/ (() => { // webpackBootstrap
+/******/ 	"use strict";
+/******/ 	var __webpack_modules__ = ({
+
+/***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style/style.scss":
+/*!***********************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style/style.scss ***!
+  \***********************************************************************************************************/
+/***/ ((module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => __WEBPACK_DEFAULT_EXPORT__\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/getUrl.js */ \"./node_modules/css-loader/dist/runtime/getUrl.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _assets_FuturaPTMedium_otf__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../assets/FuturaPTMedium.otf */ \"./src/assets/FuturaPTMedium.otf\");\n/* harmony import */ var _assets_FuturaPTLight_otf__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../assets/FuturaPTLight.otf */ \"./src/assets/FuturaPTLight.otf\");\n/* harmony import */ var _assets_FuturaPTBold_otf__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../assets/FuturaPTBold.otf */ \"./src/assets/FuturaPTBold.otf\");\n/* harmony import */ var _assets_images_mainbg_jpeg__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../assets/images/mainbg.jpeg */ \"./src/assets/images/mainbg.jpeg\");\n/* harmony import */ var _assets_images_pointsky_jpeg__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../assets/images/pointsky.jpeg */ \"./src/assets/images/pointsky.jpeg\");\n// Imports\n\n\n\n\n\n\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});\nvar ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_1___default()(_assets_FuturaPTMedium_otf__WEBPACK_IMPORTED_MODULE_2__.default);\nvar ___CSS_LOADER_URL_REPLACEMENT_1___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_1___default()(_assets_FuturaPTLight_otf__WEBPACK_IMPORTED_MODULE_3__.default);\nvar ___CSS_LOADER_URL_REPLACEMENT_2___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_1___default()(_assets_FuturaPTBold_otf__WEBPACK_IMPORTED_MODULE_4__.default);\nvar ___CSS_LOADER_URL_REPLACEMENT_3___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_1___default()(_assets_images_mainbg_jpeg__WEBPACK_IMPORTED_MODULE_5__);\nvar ___CSS_LOADER_URL_REPLACEMENT_4___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_1___default()(_assets_images_pointsky_jpeg__WEBPACK_IMPORTED_MODULE_6__);\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, \"@font-face {\\n  font-family: futura;\\n  src: url(\" + ___CSS_LOADER_URL_REPLACEMENT_0___ + \") format(\\\"opentype\\\");\\n}\\n@font-face {\\n  font-family: futuralt;\\n  src: url(\" + ___CSS_LOADER_URL_REPLACEMENT_1___ + \") format(\\\"opentype\\\");\\n}\\n@font-face {\\n  font-family: futurabd;\\n  src: url(\" + ___CSS_LOADER_URL_REPLACEMENT_2___ + \") format(\\\"opentype\\\");\\n}\\n.white-color {\\n  color: white;\\n}\\n\\n.hcenter {\\n  margin: 6rem 0;\\n  font-size: 3.5rem;\\n  text-align: center;\\n  font-weight: 600;\\n}\\n\\n.nav {\\n  position: fixed;\\n  top: 0;\\n  left: 0;\\n  width: 100%;\\n  height: 7rem;\\n  background-color: #F2F2F2;\\n  display: flex;\\n  justify-content: space-between;\\n  align-items: center;\\n  padding: 0 5rem 0 5rem;\\n  z-index: 2;\\n  box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 3px;\\n  transition: background-color 1s;\\n}\\n.nav__logo {\\n  color: blue;\\n  font-size: 3rem;\\n  font-family: \\\"Lucida Sans\\\", \\\"Lucida Sans Regular\\\", \\\"Lucida Grande\\\", \\\"Lucida Sans Unicode\\\", Geneva, Verdana, sans-serif;\\n}\\n.nav__list {\\n  display: flex;\\n  list-style: none;\\n  font-size: 2rem;\\n  font-family: futura, Arial, sans-serif;\\n  height: 100%;\\n}\\n.nav__lsitem {\\n  display: inline-flex;\\n  height: 100%;\\n  justify-content: center;\\n  text-decoration: none;\\n  color: black;\\n  margin: 0 1rem 0 1rem;\\n  cursor: pointer;\\n  position: relative;\\n  height: 100%;\\n  align-items: center;\\n}\\n.nav__lsitem::after {\\n  content: \\\"\\\";\\n  position: absolute;\\n  left: 0;\\n  bottom: 50%;\\n  opacity: 0;\\n  width: 100%;\\n  height: 100%;\\n  border-bottom: 1px solid #b53b45;\\n  -webkit-box-shadow: inset 0px -1px 0px 0px #b53b45;\\n  -moz-box-shadow: inset 0px -1px 0px 0px #b53b45;\\n  box-shadow: inset 0px -1px 0px 0px #b53b45;\\n  -webkit-transition: all 0.3s ease;\\n  transition: all 0.3s ease;\\n}\\n.nav__lsitem:hover {\\n  color: #b53b45;\\n}\\n.nav__lsitem:hover::after {\\n  bottom: 30%;\\n  opacity: 100%;\\n}\\n.nav__roundbtn {\\n  margin-right: 1rem;\\n  display: inline-flex;\\n  justify-content: center;\\n  align-items: center;\\n  width: 3.5rem;\\n  height: 3.5rem;\\n  background-color: #000000;\\n  border-radius: 50%;\\n}\\n.nav__svg {\\n  fill: white;\\n  width: 2rem;\\n  height: 2rem;\\n}\\n\\n.faded {\\n  background-color: rgba(255, 255, 255, 0.4);\\n}\\n\\n.head {\\n  width: 100%;\\n  height: 100vh;\\n  overflow: hidden;\\n}\\n.head__bg {\\n  width: 100%;\\n  height: 100vh;\\n  background: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(\" + ___CSS_LOADER_URL_REPLACEMENT_3___ + \");\\n  background-size: cover;\\n  background-repeat: no-repeat;\\n  position: relative;\\n  z-index: 0;\\n  filter: blur(1px);\\n}\\n.head__container {\\n  position: absolute;\\n  top: 50%;\\n  left: 50%;\\n  transform: translate(-50%, -50%);\\n  color: white;\\n  max-width: 110rem;\\n  text-align: center;\\n}\\n.head__h1 {\\n  font-family: futurabd, Arial, sans-serif, Arial, sans-serif;\\n  font-size: 6rem;\\n}\\n.head__btn {\\n  display: inline-block;\\n  margin-top: 2rem;\\n  padding: 1.5rem 4rem;\\n  background-color: #DB0000;\\n  color: white;\\n  text-decoration: none;\\n  font-size: 2rem;\\n  border-radius: 2rem;\\n}\\n.head p {\\n  font-size: 2.5rem;\\n  font-family: futura, Arial, sans-serif, Arial, sans-serif;\\n}\\n\\n.how {\\n  height: 100vh;\\n  background-color: white;\\n  display: flex;\\n  flex-direction: column;\\n  align-items: center;\\n}\\n.how__h1 {\\n  padding-top: 2rem;\\n  font-size: 2rem;\\n}\\n.how__h1 h1 {\\n  font-family: Arial, sans-serif;\\n}\\n.how__h1 p {\\n  text-align: center;\\n}\\n.how__description {\\n  color: #7F7F8D;\\n}\\n.how__vidcont {\\n  width: 80vw;\\n  height: 70vh;\\n  margin-top: 3rem;\\n}\\n.how__vid {\\n  width: 100%;\\n  height: 100%;\\n}\\n.how__video {\\n  width: 100%;\\n  height: 100%;\\n}\\n\\n.why {\\n  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.6)), url(\" + ___CSS_LOADER_URL_REPLACEMENT_4___ + \");\\n  background-position: center;\\n  background-size: cover;\\n  background-repeat: no-repeat;\\n  padding: 10rem 2rem;\\n}\\n.why__heading {\\n  text-align: center;\\n  font-size: 6rem;\\n  padding: 2rem;\\n}\\n.why__p {\\n  text-align: center;\\n  font-size: 2.2rem;\\n}\\n.why__container {\\n  margin-top: 5rem;\\n  display: flex;\\n  flex-wrap: wrap;\\n  justify-content: center;\\n  text-align: center;\\n}\\n.why__section {\\n  flex: 0 1 40rem;\\n  display: flex;\\n  flex-direction: column;\\n  align-items: center;\\n}\\n.why__img {\\n  width: 10rem;\\n}\\n\\n.steps {\\n  max-width: 120rem;\\n  margin: 0 auto;\\n  display: flex;\\n  flex-wrap: wrap;\\n  justify-content: center;\\n  align-items: center;\\n}\\n.steps__left {\\n  flex: 1 1 15vw;\\n  display: flex;\\n  flex-direction: column;\\n  padding: 1rem;\\n}\\n.steps__wrapper {\\n  margin: 4rem 1rem;\\n  display: flex;\\n}\\n.steps__wrapper h4 {\\n  margin-bottom: 2rem;\\n}\\n.steps__svgwrap {\\n  margin: 2rem 1rem;\\n}\\n.steps__svg {\\n  width: 7rem;\\n  height: 7rem;\\n}\\n.steps__imgcon {\\n  flex: 1 0 20vw;\\n}\\n.steps__img {\\n  width: 100%;\\n  height: 100%;\\n}\\n.steps__right {\\n  flex: 1 1 15vw;\\n  display: flex;\\n  flex-direction: column;\\n  padding: 1rem;\\n}\\n\\n.messanging {\\n  position: fixed;\\n  display: flex;\\n  justify-content: center;\\n  align-items: center;\\n  bottom: 10%;\\n  right: 6%;\\n  width: 7rem;\\n  height: 7rem;\\n  border-radius: 50%;\\n  cursor: pointer;\\n  background-color: white;\\n  z-index: 200;\\n  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.3);\\n  opacity: 100%;\\n}\\n.messanging__checkbox:checked + .messanging__label {\\n  display: none;\\n}\\n.messanging__cover {\\n  position: absolute;\\n  width: 7rem;\\n  height: 7rem;\\n  border-radius: 50%;\\n  cursor: pointer;\\n  background-color: #17ac03;\\n  z-index: 300;\\n}\\n.messanging__phone {\\n  position: absolute;\\n}\\n.messanging__messenger {\\n  position: absolute;\\n}\\n.messanging__whatsapp {\\n  position: absolute;\\n}\\n.messanging__svg {\\n  width: 5em;\\n  height: 5rem;\\n}\\n\\n.shaper {\\n  display: inline-flex;\\n  justify-content: center;\\n  align-items: center;\\n  background-color: white;\\n  width: 7rem;\\n  height: 7rem;\\n  border-radius: 50%;\\n  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.3);\\n  cursor: pointer;\\n}\\n\\n.fillgreen {\\n  fill: #00d824;\\n}\\n\\n.hide {\\n  opacity: 0;\\n  transform: scaleY(0);\\n  transition: opacity 0.3s;\\n}\\n\\n.phone_tr {\\n  transform: translateY(-9.5em);\\n  transition: transform 0.2s;\\n}\\n\\n.messanger_tr {\\n  transform: translateY(-6rem);\\n  transition: transform 0.2s;\\n}\\n\\n.whatsapp_tr {\\n  transform: translateY(-28rem);\\n  transition: transform 0.2s;\\n}\\n\\n* {\\n  padding: 0;\\n  margin: 0;\\n  box-sizing: border-box;\\n}\\n\\nhtml {\\n  font-size: 62.5%;\\n  /* Now 10px = 1rem! */\\n  scroll-behavior: smooth;\\n}\\n\\nbody {\\n  font-size: 16px;\\n  /* px fallback */\\n  font-size: 1.6rem;\\n  /* default font-size for document */\\n  line-height: 1.5;\\n  /* a nice line-height */\\n  background-color: black;\\n  font-family: Arial, sans-serif;\\n}\\n\\n.container {\\n  display: flex;\\n  flex-direction: column;\\n  background-color: white;\\n}\\n\\n.text-center {\\n  font-family: futura, Arial, sans-serif, Arial, sans-serif;\\n  text-align: center;\\n}\\n\\n.center {\\n  align-self: center;\\n}\", \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://ibworkout/./src/style/style.scss?./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js");
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/runtime/api.js":
+/*!*****************************************************!*\
+  !*** ./node_modules/css-loader/dist/runtime/api.js ***!
+  \*****************************************************/
+/***/ ((module) => {
+
+eval("\n\n/*\n  MIT License http://www.opensource.org/licenses/mit-license.php\n  Author Tobias Koppers @sokra\n*/\n// css base code, injected by the css-loader\n// eslint-disable-next-line func-names\nmodule.exports = function (cssWithMappingToString) {\n  var list = []; // return the list of modules as css string\n\n  list.toString = function toString() {\n    return this.map(function (item) {\n      var content = cssWithMappingToString(item);\n\n      if (item[2]) {\n        return \"@media \".concat(item[2], \" {\").concat(content, \"}\");\n      }\n\n      return content;\n    }).join('');\n  }; // import a list of modules into the list\n  // eslint-disable-next-line func-names\n\n\n  list.i = function (modules, mediaQuery, dedupe) {\n    if (typeof modules === 'string') {\n      // eslint-disable-next-line no-param-reassign\n      modules = [[null, modules, '']];\n    }\n\n    var alreadyImportedModules = {};\n\n    if (dedupe) {\n      for (var i = 0; i < this.length; i++) {\n        // eslint-disable-next-line prefer-destructuring\n        var id = this[i][0];\n\n        if (id != null) {\n          alreadyImportedModules[id] = true;\n        }\n      }\n    }\n\n    for (var _i = 0; _i < modules.length; _i++) {\n      var item = [].concat(modules[_i]);\n\n      if (dedupe && alreadyImportedModules[item[0]]) {\n        // eslint-disable-next-line no-continue\n        continue;\n      }\n\n      if (mediaQuery) {\n        if (!item[2]) {\n          item[2] = mediaQuery;\n        } else {\n          item[2] = \"\".concat(mediaQuery, \" and \").concat(item[2]);\n        }\n      }\n\n      list.push(item);\n    }\n  };\n\n  return list;\n};\n\n//# sourceURL=webpack://ibworkout/./node_modules/css-loader/dist/runtime/api.js?");
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/runtime/getUrl.js":
+/*!********************************************************!*\
+  !*** ./node_modules/css-loader/dist/runtime/getUrl.js ***!
+  \********************************************************/
+/***/ ((module) => {
+
+eval("\n\nmodule.exports = function (url, options) {\n  if (!options) {\n    // eslint-disable-next-line no-param-reassign\n    options = {};\n  } // eslint-disable-next-line no-underscore-dangle, no-param-reassign\n\n\n  url = url && url.__esModule ? url.default : url;\n\n  if (typeof url !== 'string') {\n    return url;\n  } // If url is already wrapped in quotes, remove them\n\n\n  if (/^['\"].*['\"]$/.test(url)) {\n    // eslint-disable-next-line no-param-reassign\n    url = url.slice(1, -1);\n  }\n\n  if (options.hash) {\n    // eslint-disable-next-line no-param-reassign\n    url += options.hash;\n  } // Should url be wrapped?\n  // See https://drafts.csswg.org/css-values-3/#urls\n\n\n  if (/[\"'() \\t\\n]/.test(url) || options.needQuotes) {\n    return \"\\\"\".concat(url.replace(/\"/g, '\\\\\"').replace(/\\n/g, '\\\\n'), \"\\\"\");\n  }\n\n  return url;\n};\n\n//# sourceURL=webpack://ibworkout/./node_modules/css-loader/dist/runtime/getUrl.js?");
+
+/***/ }),
+
+/***/ "./src/assets/FuturaPTBold.otf":
+/*!*************************************!*\
+  !*** ./src/assets/FuturaPTBold.otf ***!
+  \*************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => __WEBPACK_DEFAULT_EXPORT__\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"b22b8109a56a2445c366cb3b6d6740a9.otf\");\n\n//# sourceURL=webpack://ibworkout/./src/assets/FuturaPTBold.otf?");
+
+/***/ }),
+
+/***/ "./src/assets/FuturaPTLight.otf":
+/*!**************************************!*\
+  !*** ./src/assets/FuturaPTLight.otf ***!
+  \**************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => __WEBPACK_DEFAULT_EXPORT__\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"725c77b4e125ed776783530c13bd9dd6.otf\");\n\n//# sourceURL=webpack://ibworkout/./src/assets/FuturaPTLight.otf?");
+
+/***/ }),
+
+/***/ "./src/assets/FuturaPTMedium.otf":
+/*!***************************************!*\
+  !*** ./src/assets/FuturaPTMedium.otf ***!
+  \***************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => __WEBPACK_DEFAULT_EXPORT__\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"7af6976ce738bec1704e11c6c22da82c.otf\");\n\n//# sourceURL=webpack://ibworkout/./src/assets/FuturaPTMedium.otf?");
+
+/***/ }),
+
+/***/ "./src/style/style.scss":
+/*!******************************!*\
+  !*** ./src/style/style.scss ***!
+  \******************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => __WEBPACK_DEFAULT_EXPORT__\n/* harmony export */ });\n/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! !../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ \"./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js\");\n/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_style_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !!../../node_modules/css-loader/dist/cjs.js!../../node_modules/sass-loader/dist/cjs.js!./style.scss */ \"./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style/style.scss\");\n\n            \n\nvar options = {};\n\noptions.insert = \"head\";\noptions.singleton = false;\n\nvar update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()(_node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_style_scss__WEBPACK_IMPORTED_MODULE_1__.default, options);\n\n\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_style_scss__WEBPACK_IMPORTED_MODULE_1__.default.locals || {});\n\n//# sourceURL=webpack://ibworkout/./src/style/style.scss?");
+
+/***/ }),
+
+/***/ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js":
+/*!****************************************************************************!*\
+  !*** ./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js ***!
+  \****************************************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("\n\nvar isOldIE = function isOldIE() {\n  var memo;\n  return function memorize() {\n    if (typeof memo === 'undefined') {\n      // Test for IE <= 9 as proposed by Browserhacks\n      // @see http://browserhacks.com/#hack-e71d8692f65334173fee715c222cb805\n      // Tests for existence of standard globals is to allow style-loader\n      // to operate correctly into non-standard environments\n      // @see https://github.com/webpack-contrib/style-loader/issues/177\n      memo = Boolean(window && document && document.all && !window.atob);\n    }\n\n    return memo;\n  };\n}();\n\nvar getTarget = function getTarget() {\n  var memo = {};\n  return function memorize(target) {\n    if (typeof memo[target] === 'undefined') {\n      var styleTarget = document.querySelector(target); // Special case to return head of iframe instead of iframe itself\n\n      if (window.HTMLIFrameElement && styleTarget instanceof window.HTMLIFrameElement) {\n        try {\n          // This will throw an exception if access to iframe is blocked\n          // due to cross-origin restrictions\n          styleTarget = styleTarget.contentDocument.head;\n        } catch (e) {\n          // istanbul ignore next\n          styleTarget = null;\n        }\n      }\n\n      memo[target] = styleTarget;\n    }\n\n    return memo[target];\n  };\n}();\n\nvar stylesInDom = [];\n\nfunction getIndexByIdentifier(identifier) {\n  var result = -1;\n\n  for (var i = 0; i < stylesInDom.length; i++) {\n    if (stylesInDom[i].identifier === identifier) {\n      result = i;\n      break;\n    }\n  }\n\n  return result;\n}\n\nfunction modulesToDom(list, options) {\n  var idCountMap = {};\n  var identifiers = [];\n\n  for (var i = 0; i < list.length; i++) {\n    var item = list[i];\n    var id = options.base ? item[0] + options.base : item[0];\n    var count = idCountMap[id] || 0;\n    var identifier = \"\".concat(id, \" \").concat(count);\n    idCountMap[id] = count + 1;\n    var index = getIndexByIdentifier(identifier);\n    var obj = {\n      css: item[1],\n      media: item[2],\n      sourceMap: item[3]\n    };\n\n    if (index !== -1) {\n      stylesInDom[index].references++;\n      stylesInDom[index].updater(obj);\n    } else {\n      stylesInDom.push({\n        identifier: identifier,\n        updater: addStyle(obj, options),\n        references: 1\n      });\n    }\n\n    identifiers.push(identifier);\n  }\n\n  return identifiers;\n}\n\nfunction insertStyleElement(options) {\n  var style = document.createElement('style');\n  var attributes = options.attributes || {};\n\n  if (typeof attributes.nonce === 'undefined') {\n    var nonce =  true ? __webpack_require__.nc : 0;\n\n    if (nonce) {\n      attributes.nonce = nonce;\n    }\n  }\n\n  Object.keys(attributes).forEach(function (key) {\n    style.setAttribute(key, attributes[key]);\n  });\n\n  if (typeof options.insert === 'function') {\n    options.insert(style);\n  } else {\n    var target = getTarget(options.insert || 'head');\n\n    if (!target) {\n      throw new Error(\"Couldn't find a style target. This probably means that the value for the 'insert' parameter is invalid.\");\n    }\n\n    target.appendChild(style);\n  }\n\n  return style;\n}\n\nfunction removeStyleElement(style) {\n  // istanbul ignore if\n  if (style.parentNode === null) {\n    return false;\n  }\n\n  style.parentNode.removeChild(style);\n}\n/* istanbul ignore next  */\n\n\nvar replaceText = function replaceText() {\n  var textStore = [];\n  return function replace(index, replacement) {\n    textStore[index] = replacement;\n    return textStore.filter(Boolean).join('\\n');\n  };\n}();\n\nfunction applyToSingletonTag(style, index, remove, obj) {\n  var css = remove ? '' : obj.media ? \"@media \".concat(obj.media, \" {\").concat(obj.css, \"}\") : obj.css; // For old IE\n\n  /* istanbul ignore if  */\n\n  if (style.styleSheet) {\n    style.styleSheet.cssText = replaceText(index, css);\n  } else {\n    var cssNode = document.createTextNode(css);\n    var childNodes = style.childNodes;\n\n    if (childNodes[index]) {\n      style.removeChild(childNodes[index]);\n    }\n\n    if (childNodes.length) {\n      style.insertBefore(cssNode, childNodes[index]);\n    } else {\n      style.appendChild(cssNode);\n    }\n  }\n}\n\nfunction applyToTag(style, options, obj) {\n  var css = obj.css;\n  var media = obj.media;\n  var sourceMap = obj.sourceMap;\n\n  if (media) {\n    style.setAttribute('media', media);\n  } else {\n    style.removeAttribute('media');\n  }\n\n  if (sourceMap && typeof btoa !== 'undefined') {\n    css += \"\\n/*# sourceMappingURL=data:application/json;base64,\".concat(btoa(unescape(encodeURIComponent(JSON.stringify(sourceMap)))), \" */\");\n  } // For old IE\n\n  /* istanbul ignore if  */\n\n\n  if (style.styleSheet) {\n    style.styleSheet.cssText = css;\n  } else {\n    while (style.firstChild) {\n      style.removeChild(style.firstChild);\n    }\n\n    style.appendChild(document.createTextNode(css));\n  }\n}\n\nvar singleton = null;\nvar singletonCounter = 0;\n\nfunction addStyle(obj, options) {\n  var style;\n  var update;\n  var remove;\n\n  if (options.singleton) {\n    var styleIndex = singletonCounter++;\n    style = singleton || (singleton = insertStyleElement(options));\n    update = applyToSingletonTag.bind(null, style, styleIndex, false);\n    remove = applyToSingletonTag.bind(null, style, styleIndex, true);\n  } else {\n    style = insertStyleElement(options);\n    update = applyToTag.bind(null, style, options);\n\n    remove = function remove() {\n      removeStyleElement(style);\n    };\n  }\n\n  update(obj);\n  return function updateStyle(newObj) {\n    if (newObj) {\n      if (newObj.css === obj.css && newObj.media === obj.media && newObj.sourceMap === obj.sourceMap) {\n        return;\n      }\n\n      update(obj = newObj);\n    } else {\n      remove();\n    }\n  };\n}\n\nmodule.exports = function (list, options) {\n  options = options || {}; // Force single-tag solution on IE6-9, which has a hard limit on the # of <style>\n  // tags it will allow on a page\n\n  if (!options.singleton && typeof options.singleton !== 'boolean') {\n    options.singleton = isOldIE();\n  }\n\n  list = list || [];\n  var lastIdentifiers = modulesToDom(list, options);\n  return function update(newList) {\n    newList = newList || [];\n\n    if (Object.prototype.toString.call(newList) !== '[object Array]') {\n      return;\n    }\n\n    for (var i = 0; i < lastIdentifiers.length; i++) {\n      var identifier = lastIdentifiers[i];\n      var index = getIndexByIdentifier(identifier);\n      stylesInDom[index].references--;\n    }\n\n    var newLastIdentifiers = modulesToDom(newList, options);\n\n    for (var _i = 0; _i < lastIdentifiers.length; _i++) {\n      var _identifier = lastIdentifiers[_i];\n\n      var _index = getIndexByIdentifier(_identifier);\n\n      if (stylesInDom[_index].references === 0) {\n        stylesInDom[_index].updater();\n\n        stylesInDom.splice(_index, 1);\n      }\n    }\n\n    lastIdentifiers = newLastIdentifiers;\n  };\n};\n\n//# sourceURL=webpack://ibworkout/./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js?");
+
+/***/ }),
+
+/***/ "./src/assets/images/mainbg.jpeg":
+/*!***************************************!*\
+  !*** ./src/assets/images/mainbg.jpeg ***!
+  \***************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"9e5b3cdb475c09d2ccea.jpeg\";\n\n//# sourceURL=webpack://ibworkout/./src/assets/images/mainbg.jpeg?");
+
+/***/ }),
+
+/***/ "./src/assets/images/pointsky.jpeg":
+/*!*****************************************!*\
+  !*** ./src/assets/images/pointsky.jpeg ***!
+  \*****************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"2362b926301f717f3ed7.jpeg\";\n\n//# sourceURL=webpack://ibworkout/./src/assets/images/pointsky.jpeg?");
+
+/***/ }),
+
+/***/ "./src/components/navscroll.js":
+/*!*************************************!*\
+  !*** ./src/components/navscroll.js ***!
+  \*************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => /* binding */ scrollfade\n/* harmony export */ });\nfunction scrollfade() {\n\n  function debounce(func, wait = 10, immediate = true) {\n    let timeout;\n    return () => {\n      const contest = this; const\n        args = arguments;\n      const later = () => {\n        timeout = null;\n        if (!immediate) {\n          func.apply(contest, args);\n        }\n      };\n      const callnow = immediate && !timeout;\n      clearTimeout(timeout);\n      timeout = setTimeout(later, wait);\n      if (callnow) func.apply(contest, args);\n    };\n  }\n\n\n\n  const navbarFade = () => {\n    const nav = document.querySelector('.nav');\n    const scroll = window.pageYOffset;\n    if (scroll > 20) {\n      nav.classList.add('faded');\n    } else {\n      nav.classList.remove('faded');\n    }\n  };\n\n\n  window.addEventListener('scroll', debounce(navbarFade));\n}\n\n\n//# sourceURL=webpack://ibworkout/./src/components/navscroll.js?");
+
+/***/ }),
+
+/***/ "./src/index.js":
+/*!**********************!*\
+  !*** ./src/index.js ***!
+  \**********************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _style_style_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style/style.scss */ \"./src/style/style.scss\");\n/* harmony import */ var _components_navscroll__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./components/navscroll */ \"./src/components/navscroll.js\");\n\n\n(0,_components_navscroll__WEBPACK_IMPORTED_MODULE_1__.default)()\n\n\nfunction messagingBtns() {\n  const container = document.querySelector('.messanging');\n  let cover = document.querySelector('.messanging__cover');\n  let phone = document.querySelector('.messanging__phone');\n  let messanger = document.querySelector('.messanging__messenger');\n  let whatsapp = document.querySelector('.messanging__whatsapp')\n  container.addEventListener('click', () => {\n    // cover.classList.add('hide');\n    // phone.classList.add('phone_tr')\n    // messanger.classList.add('messanger_tr')\n    // whatsapp.classList.add('whatsapp_tr')\n    // console.log(cover);\n\n  });\n\n\n}\n\nmessagingBtns()\n\n\n\n//# sourceURL=webpack://ibworkout/./src/index.js?");
+
+/***/ })
+
+/******/ 	});
+/************************************************************************/
+/******/ 	// The module cache
+/******/ 	var __webpack_module_cache__ = {};
+/******/ 	
+/******/ 	// The require function
+/******/ 	function __webpack_require__(moduleId) {
+/******/ 		// Check if module is in cache
+/******/ 		if(__webpack_module_cache__[moduleId]) {
+/******/ 			return __webpack_module_cache__[moduleId].exports;
+/******/ 		}
+/******/ 		// Create a new module (and put it into the cache)
+/******/ 		var module = __webpack_module_cache__[moduleId] = {
+/******/ 			id: moduleId,
+/******/ 			// no module.loaded needed
+/******/ 			exports: {}
+/******/ 		};
+/******/ 	
+/******/ 		// Execute the module function
+/******/ 		__webpack_modules__[moduleId](module, module.exports, __webpack_require__);
+/******/ 	
+/******/ 		// Return the exports of the module
+/******/ 		return module.exports;
+/******/ 	}
+/******/ 	
+/************************************************************************/
+/******/ 	/* webpack/runtime/compat get default export */
+/******/ 	(() => {
+/******/ 		// getDefaultExport function for compatibility with non-harmony modules
+/******/ 		__webpack_require__.n = (module) => {
+/******/ 			var getter = module && module.__esModule ?
+/******/ 				() => module['default'] :
+/******/ 				() => module;
+/******/ 			__webpack_require__.d(getter, { a: getter });
+/******/ 			return getter;
+/******/ 		};
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/define property getters */
+/******/ 	(() => {
+/******/ 		// define getter functions for harmony exports
+/******/ 		__webpack_require__.d = (exports, definition) => {
+/******/ 			for(var key in definition) {
+/******/ 				if(__webpack_require__.o(definition, key) && !__webpack_require__.o(exports, key)) {
+/******/ 					Object.defineProperty(exports, key, { enumerable: true, get: definition[key] });
+/******/ 				}
+/******/ 			}
+/******/ 		};
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/global */
+/******/ 	(() => {
+/******/ 		__webpack_require__.g = (function() {
+/******/ 			if (typeof globalThis === 'object') return globalThis;
+/******/ 			try {
+/******/ 				return this || new Function('return this')();
+/******/ 			} catch (e) {
+/******/ 				if (typeof window === 'object') return window;
+/******/ 			}
+/******/ 		})();
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/hasOwnProperty shorthand */
+/******/ 	(() => {
+/******/ 		__webpack_require__.o = (obj, prop) => Object.prototype.hasOwnProperty.call(obj, prop)
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/make namespace object */
+/******/ 	(() => {
+/******/ 		// define __esModule on exports
+/******/ 		__webpack_require__.r = (exports) => {
+/******/ 			if(typeof Symbol !== 'undefined' && Symbol.toStringTag) {
+/******/ 				Object.defineProperty(exports, Symbol.toStringTag, { value: 'Module' });
+/******/ 			}
+/******/ 			Object.defineProperty(exports, '__esModule', { value: true });
+/******/ 		};
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/publicPath */
+/******/ 	(() => {
+/******/ 		var scriptUrl;
+/******/ 		if (__webpack_require__.g.importScripts) scriptUrl = __webpack_require__.g.location + "";
+/******/ 		var document = __webpack_require__.g.document;
+/******/ 		if (!scriptUrl && document) {
+/******/ 			if (document.currentScript)
+/******/ 				scriptUrl = document.currentScript.src
+/******/ 			if (!scriptUrl) {
+/******/ 				var scripts = document.getElementsByTagName("script");
+/******/ 				if(scripts.length) scriptUrl = scripts[scripts.length - 1].src
+/******/ 			}
+/******/ 		}
+/******/ 		// When supporting browsers where an automatic publicPath is not supported you must specify an output.publicPath manually via configuration
+/******/ 		// or pass an empty string ("") and set the __webpack_public_path__ variable from your code to use your own logic.
+/******/ 		if (!scriptUrl) throw new Error("Automatic publicPath is not supported in this browser");
+/******/ 		scriptUrl = scriptUrl.replace(/#.*$/, "").replace(/\?.*$/, "").replace(/\/[^\/]+$/, "/");
+/******/ 		__webpack_require__.p = scriptUrl;
+/******/ 	})();
+/******/ 	
+/************************************************************************/
+/******/ 	// startup
+/******/ 	// Load entry module
+/******/ 	__webpack_require__("./src/index.js");
+/******/ 	// This entry module used 'exports' so it can't be inlined
+/******/ })()
+;
