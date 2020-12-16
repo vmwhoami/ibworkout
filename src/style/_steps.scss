@@ -2,6 +2,7 @@
   max-width: 120rem;
   margin: 0 auto;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
 
@@ -17,9 +18,9 @@
     &__wrapper{
     margin: 4rem 1rem;
     display: flex;
-    h4{
-      margin-bottom: 2rem;
-    }
+      h4{
+        margin-bottom: 2rem;
+      }
     }
 
     &__svgwrap{
@@ -31,7 +32,7 @@
     height: 7rem;
     }
     &__imgcon{
-    flex: 1 1 15vw;
+    flex: 1 0 20vw;
 
     }
     &__img{
