@@ -4,7 +4,9 @@
   align-items: center;
   flex-wrap: wrap;
 &__left{
-
+display: flex;
+flex-direction: column;
+justify-content: center;
 }
 
   &__imgcon{
@@ -15,7 +17,10 @@ flex: 0 0 35vw;
   height: 100%;
 }
   &__right{
-  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
 
 }
+
