@@ -13,6 +13,26 @@
   z-index: 200;
   box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.3);
   opacity: 100%;
+  &::before{
+    content: "";
+    position: absolute;
+    background-color: rgb(46, 46, 46);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%) rotateZ(45deg);
+    width: 4rem;
+    height: 3px;
+  }
+  &::after{
+    content: "";
+    position: absolute;
+    background-color: rgb(46, 46, 46);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%) rotateZ(-45deg);
+    width: 4rem;
+    height: 3px;
+  }
 
   &__checkbox{
     display: none; 
@@ -80,7 +100,7 @@
   border-radius: 50%;
   box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.3);
   cursor: pointer;
-  transition: transform .2s cubic-bezier(0.39, 0.575, 0.565, 1);
+  transition: transform .2s cubic-bezier(0, 0.76, 0.29, 0.78);
 }
 
 .fillgreen{
