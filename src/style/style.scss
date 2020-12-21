@@ -1,4 +1,4 @@
-@import "variables","nav","mobilenav","head","msging",'how','why','steps','messanging','trainer';
+@import "variables","nav","mobilenav","head","msging",'how','why','steps','messanging','trainer','types';
 
 
 *{
@@ -16,7 +16,7 @@ body {
   font-size: 16px; /* px fallback */
   font-size: 1.6rem; /* default font-size for document */
   line-height: 1.5; /* a nice line-height */
-  background-color: black;
+  background-color: white;
   font-family: Arial, sans-serif;
 }
 
