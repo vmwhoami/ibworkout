@@ -56,15 +56,17 @@
 
   &__checkbox:checked ~  &__phone {
    transform: translateY(-30rem);
-     
+   box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.3);
   }
 
   &__checkbox:checked ~  &__messenger{
     transform: translateY(-10rem);
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.3);
   }
 
   &__checkbox:checked ~   &__whatsapp{
     transform: translateY(-20rem);
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.3);
   }
 
 
@@ -98,7 +100,7 @@
   width: 7rem;
   height: 7rem;
   border-radius: 50%;
-  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.3);
+
   cursor: pointer;
   transition: transform .2s cubic-bezier(0, 0.76, 0.29, 0.78);
 }
