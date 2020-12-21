@@ -1,4 +1,4 @@
-@import "variables","nav","mobilenav","head","msging",'how','why','steps','messanging';
+@import "variables","nav","mobilenav","head","msging",'how','why','steps','messanging','trainer';
 
 
 *{
@@ -33,4 +33,12 @@ body {
 
 .center{
   align-self: center;
+}
+
+.text-white{
+  color: white;
+}
+
+.mb-5{
+  margin-bottom: 5rem;
 }
