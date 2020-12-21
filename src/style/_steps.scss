@@ -6,7 +6,9 @@
   justify-content: center;
   align-items: center;
 
-
+  @media screen and (max-width:48em) {
+   flex-direction: column;
+}
 
     &__left{
     flex: 1 1 15vw;
@@ -49,3 +51,9 @@
 
 }
 
+.reverse{
+  @media screen and (max-width:48em) {
+    flex-direction: row-reverse;
+}
+  
+}
