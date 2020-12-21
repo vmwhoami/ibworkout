@@ -15,37 +15,53 @@
   opacity: 100%;
 
   &__checkbox{
-    // display: none;
+    display: none; 
   }
-
-  &__checkbox:checked + &__label{
-    display: none;
-
-  }
-
-
-
-
+  
   &__cover{
     position: absolute;
+    top: 0;
+    left: 0;
     width: 7rem;
     height: 7rem;
     border-radius: 50%;
     cursor: pointer;
-    background-color: rgb(23, 172, 3);
     z-index: 300;
   }
 
+
+  &__checkbox:checked + &__label{
+    opacity: 0; 
+  }
+
+  &__checkbox:checked ~  &__phone {
+   transform: translateY(-30rem);
+     
+  }
+
+  &__checkbox:checked ~  &__messenger{
+    transform: translateY(-10rem);
+  }
+
+  &__checkbox:checked ~   &__whatsapp{
+    transform: translateY(-20rem);
+  }
+
+
   &__phone{
     position: absolute;
+  
+    
   }
+
   &__messenger{
     position: absolute;
-  
+   z-index: 3;
+ 
   }
   &__whatsapp{
     position: absolute;
-    
+  
   }
 
   &__svg{
@@ -64,29 +80,10 @@
   border-radius: 50%;
   box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.3);
   cursor: pointer;
+  transition: transform .2s cubic-bezier(0.39, 0.575, 0.565, 1);
 }
 
 .fillgreen{
   fill: rgb(0, 216, 36);
 }
 
-.hide{
-  opacity: 0;
-  transform: scaleY(0);
-  transition: opacity .3s;
-}
-
-.phone_tr{
-  transform: translateY(-9.5em);
-  transition: transform .2s;
-}
-
-.messanger_tr{
-  transform: translateY(-6rem)  ; 
-  transition: transform .2s;
-}
-
-.whatsapp_tr{
-  transform: translateY(-28rem)  ; 
-  transition: transform .2s;
-}
