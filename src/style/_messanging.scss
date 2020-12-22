@@ -1,4 +1,4 @@
-.messanging{
+.messanging {
   position: fixed;
   display: flex;
   justify-content: center;
@@ -11,34 +11,36 @@
   cursor: pointer;
   background-color: white;
   z-index: 200;
-  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
   opacity: 100%;
-  &::before{
+
+  &::before {
     content: "";
     position: absolute;
     background-color: rgb(46, 46, 46);
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%) rotateZ(45deg);
-    width: 4rem;
-    height: 3px;
-  }
-  &::after{
-    content: "";
-    position: absolute;
-    background-color: rgb(46, 46, 46);
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%) rotateZ(-45deg);
+    transform: translate(-50%, -50%) rotateZ(45deg);
     width: 4rem;
     height: 3px;
   }
 
-  &__checkbox{
-    display: none; 
+  &::after {
+    content: "";
+    position: absolute;
+    background-color: rgb(46, 46, 46);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotateZ(-45deg);
+    width: 4rem;
+    height: 3px;
   }
-  
-  &__cover{
+
+  &__checkbox {
+    display: none;
+  }
+
+  &__cover {
     position: absolute;
     top: 0;
     left: 0;
@@ -49,50 +51,45 @@
     z-index: 300;
   }
 
-
-  &__checkbox:checked + &__label{
-    opacity: 0; 
-  }
-
-  &__checkbox:checked ~  &__phone {
-   transform: translateY(-30rem);
-   box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.3);
-  }
-
-  &__checkbox:checked ~  &__messenger{
-    transform: translateY(-10rem);
-    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.3);
-  }
-
-  &__checkbox:checked ~   &__whatsapp{
-    transform: translateY(-20rem);
-    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.3);
-  }
-
-
-  &__phone{
+  &__phone {
     position: absolute;
-  
-    
   }
 
-  &__messenger{
+  &__messenger {
     position: absolute;
-   z-index: 3;
- 
-  }
-  &__whatsapp{
-    position: absolute;
-  
+    z-index: 3;
   }
 
-  &__svg{
+  &__whatsapp {
+    position: absolute;
+  }
+
+  &__svg {
     width: 5em;
     height: 5rem;
   }
+
+  &__checkbox:checked + &__label {
+    opacity: 0;
+  }
+
+  &__checkbox:checked ~ &__phone {
+    transform: translateY(-30rem);
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
+  }
+
+  &__checkbox:checked ~ &__messenger {
+    transform: translateY(-10rem);
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
+  }
+
+  &__checkbox:checked ~ &__whatsapp {
+    transform: translateY(-20rem);
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
+  }
 }
 
-.shaper{
+.shaper {
   display: inline-flex;
   justify-content: center;
   align-items: center;
@@ -100,12 +97,10 @@
   width: 7rem;
   height: 7rem;
   border-radius: 50%;
-
   cursor: pointer;
-  transition: transform .2s cubic-bezier(0, 0.76, 0.29, 0.78);
+  transition: transform 0.2s cubic-bezier(0, 0.76, 0.29, 0.78);
 }
 
-.fillgreen{
+.fillgreen {
   fill: rgb(0, 216, 36);
 }
-

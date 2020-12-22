@@ -1,7 +1,6 @@
-@import "variables","nav","mobilenav","head","msging",'how','why','steps','messanging','trainer','types','pricing','form';
+@import "variables","nav","mobilenav","head" ,'how','why','steps','messanging','trainer','types','pricing','form';
 
-
-*{
+* {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
@@ -20,25 +19,25 @@ body {
   font-family: Arial, sans-serif;
 }
 
-.container{
+.container {
   display: flex;
   flex-direction: column;
- background-color: white;
- 
+  background-color: white;
 }
-.text-center{
-  font-family:  $futuraMd, Arial, sans-serif;
+
+.text-center {
+  font-family: $futuraMd, Arial, sans-serif;
   text-align: center;
 }
 
-.center{
+.center {
   align-self: center;
 }
 
-.text-white{
+.text-white {
   color: white;
 }
 
-.mb-5{
+.mb-5 {
   margin-bottom: 5rem;
 }

@@ -8,25 +8,23 @@
   src: url("../assets/FuturaPTLight.otf") format("opentype");
 }
 
-
 @font-face {
   font-family: futurabd;
   src: url("../assets/FuturaPTBold.otf") format("opentype");
 }
 
-$futuraMd:futura, Arial, sans-serif;
-$futuraLt:futuralt, Arial, sans-serif;
-$futuraBd:futurabd, Arial, sans-serif;
-$footerbg:#111111;
+$futuraMd:futura, arial, sans-serif;
+$futuraLt:futuralt, arial, sans-serif;
+$futuraBd:futurabd, arial, sans-serif;
+$footerbg:#111;
 
-.white-color{
+.white-color {
   color: white;
 }
 
-.hcenter{
+.hcenter {
   margin: 5rem 0;
   font-size: 3.5rem;
   text-align: center;
   font-weight: 600;
 }
-

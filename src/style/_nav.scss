@@ -1,16 +1,15 @@
-.nav{
+.nav {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   height: 7rem;
-  background-color:  #F2F2F2;
-
+  background-color: #f2f2f2;
   z-index: 2;
-  box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 3px;
-  transition:  background-color 1s;
+  box-shadow: rgba(0, 0, 0, 0.2) 0 1px 3px;
+  transition: background-color 1s;
 
-  &__container{
+  &__container {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -18,35 +17,31 @@
     width: 100%;
     height: 100%;
 
-    @media screen and (max-width:48em) {
+    @media screen and (max-width: 48em) {
       display: none;
+    }
   }
 
-  }
-  &__logo{
+  &__logo {
     color: blue;
     font-size: 3rem;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   }
 
-  &__list{
+  &__list {
     display: flex;
     list-style: none;
     font-size: 2rem;
-    font-family:$futuraMd ;
+    font-family: $futuraMd;
     height: 100%;
-
   }
 
-&__socialbtns{
-  // margin-right: 10rem;
-}
+  &__socialbtns {
+    // margin-right: 10rem;
+  }
 
-
-
-  &__lsitem{
+  &__lsitem {
     display: inline-flex;
-    height: 100%;
     justify-content: center;
     text-decoration: none;
     color: black;
@@ -56,9 +51,7 @@
     height: 100%;
     align-items: center;
 
-  
-
-    &::after{
+    &::after {
       content: '';
       position: absolute;
       left: 0;
@@ -67,43 +60,41 @@
       width: 100%;
       height: 100%;
       border-bottom: 1px solid #b53b45;
-      -webkit-box-shadow: inset 0px -1px 0px 0px #b53b45;
-      -moz-box-shadow: inset 0px -1px 0px 0px #b53b45;
-      box-shadow: inset 0px -1px 0px 0px #b53b45;
+      -webkit-box-shadow: inset 0 -1px 0 0 #b53b45;
+      -moz-box-shadow: inset 0 -1px 0 0 #b53b45;
+      box-shadow: inset 0 -1px 0 0 #b53b45;
       -webkit-transition: all 0.3s ease;
       transition: all 0.3s ease;
     }
-      &:hover {
-        color:#b53b45 ;
-      }
 
-      &:hover::after{
-          bottom: 30%;
-          opacity: 100%;
-      }
-    
+    &:hover {
+      color: #b53b45;
+    }
+
+    &:hover::after {
+      bottom: 30%;
+      opacity: 100%;
+    }
   }
 
-  &__roundbtn{
-   margin-right: 1rem;
+  &__roundbtn {
+    margin-right: 1rem;
     display: inline-flex;
     justify-content: center;
     align-items: center;
     width: 3.5rem;
     height: 3.5rem;
-    background-color: #000000;
+    background-color: #000;
     border-radius: 50%;
   }
 
-&__svg{
-  fill: white;
-  width: 2rem;
-  height: 2rem;
+  &__svg {
+    fill: white;
+    width: 2rem;
+    height: 2rem;
+  }
 }
 
-}
-
-.faded{
+.faded {
   background-color: rgba(255, 255, 255, 0.4);
 }
- 
