@@ -317,16 +317,41 @@
       </div>
     </div>
 
+    <!-- Testimonials -->
+
+    <div class="testimonials">
+      <h3 class="hcenter">Наши клиенты любят нас</h3>
+    </div>
+
     <div class="form" id="form">
       <h3 class="hcenter text-white">Записаться на консультацию c тренером</h3>
       <div class="form__container">
         <form action="" name="contact" class="form__form" method="POST" data-netlify="true">
-          <input type="text" />
-          <input type="email" name="" id="" />
-          <input type="phone" name="" id="" />
+          <input type="text" placeholder="Ваше имя и фамилия" name="Namesurname" />
+          <input type="email" name="Email" id="email" placeholder="E-mail" />
+          <input type="tel" name="telephone" id="telephone" placeholder="Телефон" />
 
-          <input type="email" name="" id="" />
-          <input type="phone" name="" id="" />
+          <select class="contact__select" name="Selectbox" class="contact__select">
+            <option value="">Укажите, как с вами лучше связаться...</option>
+            <option value="WhatsApp">WhatsApp</option>
+            <option value="Телефонный звонок">Телефонный звонок</option>
+            <option value="Messenger">Messenger</option>
+          </select>
+
+          <select class="contact__select" name="Selectbox_2" class="contact__select2">
+            <option value="">Выберите цель ваших тренировок</option>
+            <option value="Держать все тело в тонусе">Держать все тело в тонусе</option>
+            <option value="Прокачка мышц пресса, ног и ягодиц">Прокачка мышц пресса, ног и ягодиц</option>
+            <option value="Увеличение силы / набор массы">Увеличение силы / набор массы</option>
+            <option value="Снижение веса">Снижение веса</option>
+            <option value="Здоровая спина ">Здоровая спина</option>
+            <option value="Научиться регулярно медитировать">Научиться регулярно медитировать</option>
+            <option value="Йога / Пилатес для здоровья">Йога / Пилатес для здоровья</option>
+            <option value="Улучшить гибкость и растяжку">Улучшить гибкость и растяжку</option>
+            <option value="Другое">Другое</option>
+          </select>
+
+          <button type="submit">Отправить</button>
         </form>
       </div>
     </div>
@@ -345,13 +370,13 @@
         </a>
       </label>
 
-      <a class="messanging__messenger shaper">
+      <a href="http://m.me/vmwhoami" target="blank" class="messanging__messenger shaper">
         <svg class="messanging__svg">
           <use xlink:href="./sprite.svg#icon-messenger"></use>
         </svg>
       </a>
 
-      <a class="messanging__phone shaper">
+      <a href="tel:69136177" class="messanging__phone shaper">
         <svg class="messanging__svg">
           <use xlink:href="./sprite.svg#icon-phone"></use>
         </svg>
