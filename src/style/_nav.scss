@@ -23,9 +23,8 @@
   }
 
   &__logo {
-    color: blue;
-    font-size: 3rem;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+ 
   }
 
   &__list {
@@ -97,4 +96,20 @@
 
 .faded {
   background-color: rgba(255, 255, 255, 0.4);
+}
+
+
+.logo__atag{
+
+}
+
+.logo__atag{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo__svg{
+  fill: rgb(23, 0, 128);
+  width: 12rem;
 }
