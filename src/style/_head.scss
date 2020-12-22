@@ -35,6 +35,10 @@
  &__h1{
   font-family: $futuraBd, Arial, sans-serif;
   font-size: 6rem;
+
+  @media screen and (max-width:48em) {
+    font-size: 4rem;
+  }
  }
 
  &__btn{
