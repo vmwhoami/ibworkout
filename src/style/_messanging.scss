@@ -5,8 +5,8 @@
   align-items: center;
   bottom: 10%;
   right: 3%;
-  width: 7rem;
-  height: 7rem;
+  width: 6.5rem;
+  height: 6.5rem;
   border-radius: 50%;
   cursor: pointer;
   background-color: white;
@@ -42,16 +42,27 @@
 
   &__cover {
     position: absolute;
-    top: 0;
-    left: 0;
+    background-color: #275dc7;
+    top: -2px;
+    left: -2px;
     width: 7rem;
     height: 7rem;
     border-radius: 50%;
     cursor: pointer;
     z-index: 300;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
+    &__mesaj{
+      width: 5rem;
+      height: 5rem;
+      fill: white;
+    }
+
   &__phone {
+    fill: #004D73;
     position: absolute;
   }
 
@@ -65,8 +76,8 @@
   }
 
   &__svg {
-    width: 5em;
-    height: 5rem;
+    width: 4rem;
+    height: 4rem;
   }
 
   &__checkbox:checked + &__label {
@@ -87,6 +98,11 @@
     transform: translateY(-20rem);
     box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
   }
+
+  &__checkbox:checked ~ &__viber {
+    transform: translateY(-40rem);
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
+  }
 }
 
 .shaper {
@@ -94,8 +110,8 @@
   justify-content: center;
   align-items: center;
   background-color: white;
-  width: 7rem;
-  height: 7rem;
+  width: 6.5rem;
+  height: 6.5rem;
   border-radius: 50%;
   cursor: pointer;
   transition: transform 0.2s cubic-bezier(0, 0.76, 0.29, 0.78);
