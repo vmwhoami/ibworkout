@@ -354,7 +354,7 @@
     <div class="form" id="form">
       <h3 class="hcenter text-white">Записаться на консультацию c тренером</h3>
       <div class="form__container">
-        <form action="" name="contact" class="form__form" method="POST" data-netlify="true">
+        <form action="POST" name="contact" class="form__form" data-netlify="true">
           <input type="text" placeholder="Ваше имя и фамилия" name="Namesurname" />
           <input type="email" name="Email" id="email" placeholder="E-mail" />
           <input type="tel" name="telephone" id="telephone" placeholder="Телефон" />
@@ -376,6 +376,9 @@
 
           <div class="textarea">
             <textarea name="comment" class="textarea__text" placeholder="Укажите, пожалуйста, ваш город или часовой пояс. Как с вами связаться (телефон, whatsapp и т.д.) и в какое время? Промокод (если есть) и прочие комментарии." rows="4" spellcheck="false"></textarea>
+          </div>
+          <div class="textarea">
+            <div data-netlify-recaptcha="true"></div>
           </div>
           <div class="btncontainer">
             <button type="submit" class="formbtn">Отправить</button>
@@ -431,13 +434,13 @@
         </svg>
       </a>
 
-      <a href="tel:69136177" class="messanging__phone shaper">
+      <a href="tel:+37369136177" class="messanging__phone shaper">
         <svg class="messanging__svg">
           <use xlink:href="./sprite.svg#icon-phone"></use>
         </svg>
       </a>
 
-      <a href="http://wa.me/69136177" class="messanging__whatsapp shaper">
+      <a href="http://wa.me/+37369136177" class="messanging__whatsapp shaper">
         <svg class="messanging__svg fillgreen">
           <use xlink:href="./sprite.svg#icon-whatsapp"></use>
         </svg>
