@@ -1,25 +1,26 @@
-.testimonials{
+.testimonials {
   width: 100%;
   display: flex;
   flex-direction: column;
- padding: 1rem 0;
-  &__container{
+  padding: 1rem 0;
+
+  &__container {
     max-width: 120rem;
     margin: 0 auto;
   }
 }
 
-.client{
-display: flex;
-flex-direction: column;
-align-items: center;
+.client {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 
-  &__img{
- width:15rem;
- height:15rem;
- border-radius: 50%;
+  &__img {
+    width: 15rem;
+    height: 15rem;
+    border-radius: 50%;
 
-    img{
+    img {
       width: 100%;
       height: 100%;
       object-fit: cover;
@@ -27,18 +28,19 @@ align-items: center;
     }
   }
 
-  &__comment{
-display: flex;
-flex-direction: column;
-align-items: center;
-padding: 2rem;
+  &__comment {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
 
-p{
-  margin-bottom: 1rem;
-}
-h5{
-  padding-top: 1rem;
-  font-size: 2rem;
-}
+    p {
+      margin-bottom: 1rem;
+    }
+
+    h5 {
+      padding-top: 1rem;
+      font-size: 2rem;
+    }
   }
 }

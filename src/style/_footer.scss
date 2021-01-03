@@ -1,44 +1,42 @@
-.footer{
-  background-color: #111111;
- display: flex;
-//  flex-direction: column;
-
-
-
-
-&__social{
-  max-width: 120rem;
-margin: 0 auto;
+.footer {
+  background-color: #111;
   display: flex;
-  flex-direction: column;
-}
+  //  flex-direction: column;
 
-&__logo{}
-&__atag{}
+  &__social {
+    max-width: 120rem;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+  }
 
-&__svglogo{
-  fill: white;
-  width: 15rem;
-  height: 15rem;
-}
+  // &__logo{}
+  // &__atag{}
 
-&__socialbtns{
-  display: flex;
-}
+  &__svglogo {
+    fill: white;
+    width: 15rem;
+    height: 15rem;
+  }
 
-&__roundbtn{
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 50%;
-  background-color: white;
-  width: 4rem;
-  height: 4rem;
-  margin: 1rem;
-}
-&__svg{
-  width: 2.5rem;
-  height: 2.5rem;
-  fill:black;
-}
+  &__socialbtns {
+    display: flex;
+  }
+
+  &__roundbtn {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: white;
+    width: 4rem;
+    height: 4rem;
+    margin: 1rem;
+  }
+
+  &__svg {
+    width: 2.5rem;
+    height: 2.5rem;
+    fill: black;
+  }
 }

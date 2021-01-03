@@ -22,10 +22,9 @@
     }
   }
 
-  &__logo {
+  // &__logo {
 
- 
-  }
+  // }
 
   &__list {
     display: flex;
@@ -35,9 +34,9 @@
     height: 100%;
   }
 
-  &__socialbtns {
-    // margin-right: 10rem;
-  }
+  // &__socialbtns {
+  //   // margin-right: 10rem;
+  // }
 
   &__lsitem {
     display: inline-flex;
@@ -98,18 +97,17 @@
   background-color: rgba(255, 255, 255, 0.4);
 }
 
+// .logo__atag{
 
-.logo__atag{
+// }
 
-}
-
-.logo__atag{
+.logo__atag {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.logo__svg{
-  fill: #111111;
+.logo__svg {
+  fill: #111;
   width: 20rem;
 }
