@@ -2,8 +2,10 @@ export default function scrollfade() {
   function debounce(func, wait = 10, immediate = true) {
     let timeout;
     return () => {
-      const contest = this; const
-        args = arguments;
+      const contest = this;
+
+      const args = arguments;
+
       const later = () => {
         timeout = null;
         if (!immediate) {
