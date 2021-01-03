@@ -1,5 +1,4 @@
 export default function scrollfade() {
-
   function debounce(func, wait = 10, immediate = true) {
     let timeout;
     return () => {
@@ -18,8 +17,6 @@ export default function scrollfade() {
     };
   }
 
-
-
   const navbarFade = () => {
     const nav = document.querySelector('.nav');
     const scroll = window.pageYOffset;
@@ -29,7 +26,6 @@ export default function scrollfade() {
       nav.classList.remove('faded');
     }
   };
-
 
   window.addEventListener('scroll', debounce(navbarFade));
 }
