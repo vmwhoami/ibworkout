@@ -3,41 +3,477 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script defer src="main.js"></script>
-    <title>Document</title>
+    <link rel="icon" type="image/svg+xml" href="./favicon.ico" />
+    <link rel="alternate icon" href="./favicon.svg" />
+    <link rel="mask-icon" href="./favicon.svg" />
+    <script async src="main.js"></script>
+
+    <title>IBWORKOUT</title>
+    <!-- Yandex.Metrika counter -->
+    <script type="text/javascript">
+      (function (m, e, t, r, i, k, a) {
+        m[i] =
+          m[i] ||
+          function () {
+            (m[i].a = m[i].a || []).push(arguments);
+          };
+        m[i].l = 1 * new Date();
+        (k = e.createElement(t)), (a = e.getElementsByTagName(t)[0]), (k.async = 1), (k.src = r), a.parentNode.insertBefore(k, a);
+      })(window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+      ym(70760377, "init", {
+        clickmap: true,
+        trackLinks: true,
+        accurateTrackBounce: true,
+        webvisor: true,
+        ecommerce: "dataLayer",
+      });
+    </script>
+    <noscript>
+      <div><img src="https://mc.yandex.ru/watch/70760377" style="position: absolute; left: -9999px" alt="" /></div>
+    </noscript>
+    <!-- /Yandex.Metrika counter -->
   </head>
+
   <body>
     <div class="container">
-      <div class="messanging">
-        <!-- phone 
-        whatsapp
-        messanger -->
-      </div>
+      <!-- mobile navigation -->
 
       <!-- navigation -->
       <nav class="nav">
-        <div class="nav__logo">IBworkout</div>
-        <ul class="nav__list">
-          <li class="nav__lsitem">Тренеры</li>
-          <li class="nav__lsitem">Цены</li>
-          <li class="nav__lsitem">Отзывы</li>
-          <li class="nav__lsitem">Записаться</li>
-        </ul>
-        <div class="nav__socialbtns">
-          <a href="http://">facebook</a>
-          <a href="http://">vk</a>
-          <a href="http://">instagram</a>
+        <div class="navigation">
+          <div class="navigation__logo">
+            <a class="logo__atag" href="#">
+              <svg class="logo__svg">
+                <use xlink:href="./sprite.svg#icon-ibw"></use>
+              </svg>
+            </a>
+          </div>
+          <input type="checkbox" name="nav" id="nav" class="navigation-checkbox" />
+          <label for="nav" class="navigation-handle">
+            <span class="navigation-icon">&nbsp;</span>
+          </label>
+          <div class="navigation-background">&nbsp;</div>
+          <div class="navigation-nav">
+            <ul class="navigation-list">
+              <li class="navigation-item"><a href="#trainer" class="navigation-link"> Тренер </a></li>
+              <!-- <li class="navigation-item"><a href="#pricing" class="navigation-link"> Цены </a></li> -->
+              <li class="navigation-item"><a href="#testimonials" class="navigation-link"> Отзывы</a></li>
+              <li class="navigation-item"><a href="#form" class="navigation-link"> Записаться</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="nav__container">
+          <div class="nav__logo">
+            <a class="logo__atag" target="blank" href="#">
+              <svg class="logo__svg">
+                <use xlink:href="./sprite.svg#icon-ibw"></use>
+              </svg>
+            </a>
+          </div>
+          <div class="nav__list">
+            <a class="nav__lsitem" href="#trainer"> Тренер</a>
+            <!-- <a class="nav__lsitem" href="#pricing">Цены</a> -->
+            <a class="nav__lsitem" href="#testimonials">Отзывы</a>
+            <a class="nav__lsitem" href="#form">Записаться</a>
+          </div>
+          <div class="nav__socialbtns">
+            <a class="nav__roundbtn" target="blank" href="https://www.instagram.com/innabogdan/">
+              <svg class="nav__svg">
+                <use xlink:href="./sprite.svg#icon-instagram"></use>
+              </svg>
+            </a>
+            <a class="nav__roundbtn" target="blank" href="http://">
+              <svg class="nav__svg">
+                <use xlink:href="./sprite.svg#icon-vk1"></use>
+              </svg>
+            </a>
+            <a class="nav__roundbtn" target="blank" href="https://www.facebook.com/profile.php?id=100026188263111">
+              <svg class="nav__svg">
+                <use xlink:href="./sprite.svg#icon-facebook-official"></use>
+              </svg>
+            </a>
+          </div>
         </div>
       </nav>
 
       <!-- header -->
-
-      <head class="head">
+      <div class="head">
+        <div class="head__bg"></div>
         <div class="head__container">
           <h1 class="head__h1">Онлайн-тренировки с личным тренером</h1>
-          <a href="#" class="head__btn">Попробовать бесплатно</a>
+          <p>В реальном времени.</p>
+          <p>Когда удобно.</p>
+          <p>Где удобно.</p>
+          <a href="#" class="head__btn">Записаться на пробную тренировку</a>
         </div>
-      </head>
+      </div>
+
+      <!-- how to train -->
+
+      <div class="how">
+        <div class="how__h1">
+          <h1 class="text-center">Как проходит тренировка?</h1>
+          <div class="how__description">
+            <p>
+              Вы занимаетесь с персональным тренером по видеосвязи. <br />
+              Всё, что вам нужно, — это ноутбук или телефон с веб-камерой, интернет<br />
+              и немного свободного пространства (2 м от камеры).
+            </p>
+          </div>
+          <div class="how__vidcont">
+            <iframe class="how__vid" src="https://www.youtube.com/embed/ASwpaa74RGo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+
+      <!-- why section -->
+      <div class="why">
+        <h2 class="why__heading white-color">Почему это удобно?</h2>
+        <p class="why__p white-color">Тренируйтесь в комфортном ритме когда угодно и где угодно</p>
+
+        <div class="why__container">
+          <div class="why__section">
+            <img class="why__img" src="./plan.png" alt="plan" />
+            <p class="white-color">План занятий составляем индивидуально: он учитывает ваш образ жизни, цели и физические возможности</p>
+          </div>
+
+          <div class="why__section">
+            <img class="why__img" src="./coin.png" alt="coin" />
+            <p class="white-color">Регулярная работа с личным тренером в онлайн-режиме стоит в несколько раз дешевле занятий с тренером в зале</p>
+          </div>
+
+          <div class="why__section">
+            <img class="why__img" src="./trainer.png" alt="plan" />
+            <p class="white-color">Регулярная работа с личным тренером в онлайн-режиме стоит в несколько раз дешевле занятий с тренером в зале</p>
+          </div>
+        </div>
+      </div>
+      <a href="#" class="head__btn center">Записаться на пробную тренировку</a>
+      <h3 class="hcenter">Начните заниматься с тренером за несколько шагов</h3>
+      <!-- steps section -->
+      <div class="steps">
+        <div class="steps__left">
+          <div class="steps__wrapper reverse">
+            <div class="steps__textwrap">
+              <h4>Выберите тип тренинга</h4>
+              <p>Каждый из них решает разные задачи: помогает снизить вес, поддерживает тело в форме, укрепляет мышечный корсет или работает с растяжкой.</p>
+            </div>
+            <div class="steps__svgwrap">
+              <svg class="steps__svg">
+                <use xlink:href="./othersprite.svg#icon-barbell"></use>
+              </svg>
+            </div>
+          </div>
+
+          <div class="steps__wrapper reverse">
+            <div class="steps__textwrap">
+              <h4>Оставьте заявку</h4>
+              <p>Заполните короткую анкету, и мы составим для вас оптимальную программу.</p>
+            </div>
+            <div class="steps__svgwrap">
+              <svg class="steps__svg">
+                <use xlink:href="./othersprite.svg#icon-questions"></use>
+              </svg>
+            </div>
+          </div>
+
+          <div class="steps__wrapper reverse">
+            <div class="steps__textwrap">
+              <h4>Пройдите пробную тренировку</h4>
+              <p>Начните заниматься с выбранным тренером бесплатно: так вы поймете, подходят ли вам программа и формат занятий.</p>
+            </div>
+
+            <div class="steps__svgwrap">
+              <svg class="icon icon-present steps__svg">
+                <use xlink:href="./othersprite.svg#icon-present"></use>
+              </svg>
+            </div>
+          </div>
+        </div>
+
+        <div class="steps__imgcon">
+          <img class="steps__img" src="./iphone12black.png" alt="iphone12" />
+        </div>
+
+        <div class="steps__right">
+          <div class="steps__wrapper">
+            <div class="steps__svgwrap">
+              <svg class="icon icon-present steps__svg">
+                <use xlink:href="./othersprite.svg#icon-clock"></use>
+              </svg>
+            </div>
+            <div class="steps__textwrap">
+              <h4>Запланируйте занятия</h4>
+              <p>Выберите удобное время и регулярно занимайтесь с персональным тренером.</p>
+            </div>
+          </div>
+
+          <div class="steps__wrapper">
+            <div class="steps__svgwrap">
+              <svg class="icon icon-present steps__svg">
+                <use xlink:href="./othersprite.svg#icon-timetable"></use>
+              </svg>
+            </div>
+            <div class="steps__textwrap">
+              <h4>Выберите пакет тренировок</h4>
+              <p>Определите комфортную нагрузку и тренируйтесь один, два или три раза в неделю от 825 руб./час.</p>
+            </div>
+          </div>
+
+          <div class="steps__wrapper">
+            <div class="steps__svgwrap">
+              <svg class="icon icon-present steps__svg">
+                <use xlink:href="./othersprite.svg#icon-cup"></use>
+              </svg>
+            </div>
+            <div class="steps__textwrap">
+              <h4>Достигайте результата</h4>
+              <p>Добивайтесь целей с рекомендациями вашего наставника.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <a href="#" class="head__btn center mb-5">Записаться на пробную тренировку</a>
+
+      <!-- Trainer -->
+      <div class="trainer" id="trainer">
+        <h3 class="hcenter text-white">Tренер</h3>
+        <a class="trainer__container" href="#">
+          <div class="trainer__imgcontainer">
+            <img src="./Inngirea.jpg" alt="Inna" />
+          </div>
+          <div class="trainer__description">
+            <h1>Inna</h1>
+            <h3>Силовые, функциональные, стретчинг</h3>
+            <p>Инструктор тренажерного зала, персональный тренер, стретчинг, «Первая школа фитнеса», г. Москва. У Анны высшее образование по физической культуре и 13-летний опыт в спорте и фитнесе.</p>
+          </div>
+        </a>
+      </div>
+    </div>
+
+    <!-- Types -->
+
+    <div class="types">
+      <h3 class="hcenter">Типы тренинга</h3>
+      <div class="types__container">
+        <div class="types__training">
+          <div class="types__imgcont">
+            <img src="./img/functional.jpg" alt="functional" />
+          </div>
+          <div class="types__desc">
+            <h4>Функциональный тренинг</h4>
+            <p>Развивает выносливость и улучшает общий тонус организма — появится больше сил и мотивации для других задач.</p>
+          </div>
+        </div>
+
+        <div class="types__training">
+          <div class="types__imgcont">
+            <img src="./img/silovie.jpg" alt="power" />
+          </div>
+          <div class="types__desc">
+            <h4>Силовой тренинг</h4>
+            <p>Развивает мышцы за счет тренировок с собственным весом или утяжелителями — упражнения помогают создать красивый рельеф и прийти в спортивную форму.</p>
+          </div>
+        </div>
+
+        <div class="types__training">
+          <div class="types__imgcont">
+            <img src="./img/yoga.jpeg" alt="yoga" />
+          </div>
+          <div class="types__desc">
+            <h4>Пилатес и йога</h4>
+            <p>Восстанавливают эластичность мышц, работают с растяжкой — этот тренинг помогает расслабиться и повысить гибкость тела.</p>
+          </div>
+        </div>
+
+        <div class="types__training">
+          <div class="types__imgcont">
+            <img src="./img/weightloss.jpg" alt="weight" />
+          </div>
+          <div class="types__desc">
+            <h4>Снижение веса</h4>
+            <p>Сочетает интенсивные силовые и функциональные тренировки — они помогут снизить вес и прийти в форму.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Pricing -->
+    <!-- <div class="pricing" id="pricing">
+      <h3 class="hcenter">Пакеты тренировок по 60 минут</h3>
+      <div class="pricing__container">
+        <div class="package">
+          <span class="package__count">8 тренировок</span>
+          <h4 class="package__price">870Lei/60 мин</h4>
+          <del>7920 </del>
+          <strong> 1200 lei</strong>
+          <p>за 8 тренировок</p>
+          <span> скидка 12%</span>
+          <a href="" class="choose">Выбрать</a>
+        </div>
+
+        <div class="package">
+          <span class="package__count">8 тренировок</span>
+          <h4 class="package__price">870Lei/60 мин</h4>
+          <del>7920 </del>
+          <strong> 1200 lei</strong>
+          <p>за 8 тренировок</p>
+          <span> скидка 12%</span>
+          <a href="" class="choose">Выбрать</a>
+        </div>
+
+        <div class="package">
+          <span class="package__count">8 тренировок</span>
+          <h4 class="package__price">870Lei/60 мин</h4>
+          <del>7920 </del>
+          <strong> 1200 lei</strong>
+          <p>за 8 тренировок</p>
+          <span> скидка 12%</span>
+          <a href="" class="choose">Выбрать</a>
+        </div>
+
+        <div class="package">
+          <span class="package__count">8 тренировок</span>
+          <h4 class="package__price">870Lei/60 мин</h4>
+          <del>7920 </del>
+          <strong> 1200 lei</strong>
+          <p>за 8 тренировок</p>
+          <span> скидка 12%</span>
+          <a href="" class="choose">Выбрать</a>
+        </div>
+      </div>
+    </div> -->
+
+    <!-- Testimonials -->
+
+    <div class="testimonials" id="testimonials">
+      <h3 class="hcenter">Отзывы наших клиентов</h3>
+      <div class="testimonials__container">
+        <div class="client">
+          <div class="client__comment">
+            <p>Когда я родила ребенка, поняла, что не могу так же, как и раньше, ходить в фитнес-клуб. Времени не очень много, а оказалось, что на дорогу, сборы, переодевания уходит чуть ли бОльшая часть. А форму поддерживать я хотела.</p>
+
+            <p>
+              Рада, что познакомилась с WowFit! Я занимаюсь прямо с телефона с личным тренером тогда, когда мне удобно. Просто укладываю ребенка — и сразу готова включиться в тренировку: с залом такое невозможно. Тренируюсь три раза в неделю, быстро вернулась в добеременный вес. А главное — в свой
+              привычный мир: до родов я регулярно ходила на фитнес и очень не хотела бросать то, что люблю. В IBWorkout работают профессионалы: тренер Ильмир не только составляет программу упражнений, но и может посоветовать, как правильно питаться, на что обращать внимание. Так что это еще и
+              интересное общение. Очень довольна!
+            </p>
+
+            <div class="client__img">
+              <img src="./img/yoga.jpeg" alt="client" />
+            </div>
+            <h5>Evdochia Pavlovna</h5>
+            <a class="nav__roundbtn" target="blank" href="https://www.instagram.com/innabogdan/">
+              <svg class="nav__svg">
+                <use xlink:href="./sprite.svg#icon-instagram"></use>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="form" id="form">
+      <h3 class="hcenter text-white">Записаться на консультацию c тренером</h3>
+      <div class="form__container">
+        <form action="POST" name="contact" class="form__form" data-netlify="true">
+          <input type="text" placeholder="Ваше имя и фамилия" name="Ваше имя и фамилия" />
+          <input type="email" name="Email" id="email" placeholder="E-mail" />
+          <input type="tel" name="Телефон" id="telephone" placeholder="Телефон" />
+
+          <div class="select">
+            <select class="select__select" name=" цель  тренировок">
+              <option value="">Выберите цель ваших тренировок</option>
+              <option value="Держать все тело в тонусе">Держать все тело в тонусе</option>
+              <option value="Прокачка мышц пресса, ног и ягодиц">Прокачка мышц пресса, ног и ягодиц</option>
+              <option value="Увеличение силы / набор массы">Увеличение силы / набор массы</option>
+              <option value="Снижение веса">Снижение веса</option>
+              <option value="Здоровая спина ">Здоровая спина</option>
+              <option value="Научиться регулярно медитировать">Научиться регулярно медитировать</option>
+              <option value="Йога / Пилатес для здоровья">Йога / Пилатес для здоровья</option>
+              <option value="Улучшить гибкость и растяжку">Улучшить гибкость и растяжку</option>
+              <option value="Другое">Другое</option>
+            </select>
+          </div>
+
+          <div class="textarea">
+            <textarea name="comment" class="textarea__text" placeholder="Укажите, пожалуйста, ваш город или часовой пояс. Как с вами связаться (телефон, whatsapp и т.д.) и в какое время? Промокод (если есть) и прочие комментарии." rows="4" spellcheck="false"></textarea>
+          </div>
+          <div class="textarea">
+            <div data-netlify-recaptcha="true"></div>
+          </div>
+          <div class="btncontainer">
+            <button type="submit" class="formbtn">Отправить</button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <!-- footer -->
+    <footer class="footer">
+      <div class="footer__social">
+        <div class="footer__logo">
+          <a class="footer__atag" target="blank" href="#">
+            <svg class="footer__svglogo">
+              <use xlink:href="./sprite.svg#icon-ibw"></use>
+            </svg>
+          </a>
+        </div>
+        <div class="footer__socialbtns">
+          <a class="footer__roundbtn" target="blank" href="https://www.instagram.com/innabogdan/">
+            <svg class="footer__svg">
+              <use xlink:href="./sprite.svg#icon-instagram"></use>
+            </svg>
+          </a>
+          <a class="footer__roundbtn" target="blank" href="http://">
+            <svg class="footer__svg">
+              <use xlink:href="./sprite.svg#icon-vk1"></use>
+            </svg>
+          </a>
+          <a class="footer__roundbtn" target="blank" href="https://www.facebook.com/profile.php?id=100026188263111">
+            <svg class="footer__svg">
+              <use xlink:href="./sprite.svg#icon-facebook-official"></use>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Messaging -->
+    <div class="messanging">
+      <input class="messanging__checkbox" type="checkbox" name="checkbox" id="toggle" />
+
+      <label class="messanging__label" for="toggle">
+        <a class="messanging__cover">
+          <svg class="messanging__mesaj">
+            <use xlink:href="./sprite.svg#icon-mesaj"></use>
+          </svg>
+        </a>
+      </label>
+
+      <a href="http://m.me/vmwhoami" target="blank" class="messanging__messenger shaper">
+        <svg class="messanging__svg">
+          <use xlink:href="./sprite.svg#icon-messenger"></use>
+        </svg>
+      </a>
+
+      <a href="tel:+37369136177" target="blank" class="messanging__phone shaper">
+        <svg class="messanging__svg">
+          <use xlink:href="./sprite.svg#icon-phone"></use>
+        </svg>
+      </a>
+
+      <a href="http://wa.me/+37369136177" target="blank" class="messanging__whatsapp shaper">
+        <svg class="messanging__svg fillgreen">
+          <use xlink:href="./sprite.svg#icon-whatsapp"></use>
+        </svg>
+      </a>
+
+      <a href="viber://chat?​number=+37369136177" target="blank" class="messanging__viber shaper">
+        <svg class="messanging__svg">
+          <use xlink:href="./sprite.svg#icon-viber"></use>
+        </svg>
+      </a>
     </div>
   </body>
 </html>

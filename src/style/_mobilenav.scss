@@ -1,0 +1,162 @@
+.navigation {
+  height: 100%;
+  align-items: center;
+  display: none;
+
+  &__logo {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    font-size: 2.5rem;
+    margin-left: 2vw;
+  }
+
+  @media screen and (max-width: 48em) {
+    display: block;
+  }
+
+  &-checkbox {
+    display: none;
+  }
+
+  &-handle {
+    position: fixed;
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50%;
+    top: 0.5rem;
+    right: 0.5rem;
+    z-index: 250;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+
+  // burger button
+
+  &-icon {
+    position: relative;
+
+    &,
+    &::before,
+    &::after {
+      width: 4rem;
+      height: 3px;
+      background-color: #111;
+      display: inline-block;
+      position: absolute;
+      transition: all 0.2s;
+    }
+
+    &::before,
+    &::after {
+      content: "";
+      left: 0;
+    }
+
+    &::before {
+      top: -0.8rem;
+    }
+
+    &::after {
+      top: 0.8rem;
+    }
+  }
+
+  &-handle:hover &-icon::before {
+    top: -1rem;
+    transition: all 0.2s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+  }
+
+  &-handle:hover &-icon::after {
+    top: 1rem;
+    transition: all 0.2s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+  }
+
+  &-background {
+    position: fixed;
+    width: 100%;
+    height: 1px;
+    top: 0;
+    left: 0;
+    background: #f2f2f2;
+    z-index: 100;
+    transform-origin: 0% 0%;
+  }
+
+  &-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    z-index: 200;
+    width: 0;
+    opacity: 0;
+    transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  }
+
+  &-list {
+    position: absolute;
+    list-style: none;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  &-item {
+    margin: 1rem;
+  }
+
+  &-link {
+    &:link,
+    &:visited {
+      display: inline-block;
+      padding: 0.5rem 2rem;
+      text-decoration: none;
+      color: #111;
+      font-size: 3rem;
+      font-weight: 300;
+      margin-top: 1rem;
+      background-image:
+        linear-gradient(
+          120deg,
+          transparent 0%,
+          transparent 50%,
+          #b53b45 50%
+        );
+      background-size: 235%;
+      transition: background-position 0.4s ease;
+    }
+
+    &:hover,
+    &:active {
+      background-position: 100%;
+      color: white;
+    }
+  }
+
+  &-checkbox:checked ~ &-background {
+    transform: scaleY(2000);
+  }
+
+  &-checkbox:checked ~ &-nav {
+    width: 100%;
+    opacity: 1;
+  }
+
+  &-checkbox:checked + &-handle &-icon {
+    background-color: transparent;
+  }
+
+  &-checkbox:checked + &-handle &-icon::before {
+    top: 0;
+    transform: rotate(135deg);
+  }
+
+  &-checkbox:checked + &-handle &-icon::after {
+    top: 0;
+    transform: rotate(-135deg);
+  }
+}

@@ -1,0 +1,42 @@
+.footer {
+  background-color: #111;
+  display: flex;
+  //  flex-direction: column;
+
+  &__social {
+    max-width: 120rem;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+  }
+
+  // &__logo{}
+  // &__atag{}
+
+  &__svglogo {
+    fill: white;
+    width: 15rem;
+    height: 15rem;
+  }
+
+  &__socialbtns {
+    display: flex;
+  }
+
+  &__roundbtn {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: white;
+    width: 4rem;
+    height: 4rem;
+    margin: 1rem;
+  }
+
+  &__svg {
+    width: 2.5rem;
+    height: 2.5rem;
+    fill: black;
+  }
+}

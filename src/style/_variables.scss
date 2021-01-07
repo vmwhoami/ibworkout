@@ -8,12 +8,23 @@
   src: url("../assets/FuturaPTLight.otf") format("opentype");
 }
 
-
 @font-face {
   font-family: futurabd;
   src: url("../assets/FuturaPTBold.otf") format("opentype");
 }
 
-$futuraMd:futura;
-$futuraLt:futuralt;
-$futuraBd:futurabd;
+$futuraMd:futura, arial, sans-serif;
+$futuraLt:futuralt, arial, sans-serif;
+$futuraBd:futurabd, arial, sans-serif;
+$footerbg:#111;
+
+.white-color {
+  color: white;
+}
+
+.hcenter {
+  margin: 3rem 0;
+  font-size: 3.5rem;
+  text-align: center;
+  font-weight: 600;
+}

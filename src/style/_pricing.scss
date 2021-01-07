@@ -1,0 +1,49 @@
+.pricing {
+  width: 100%;
+
+  &__container {
+    max-width: 120rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+
+    @media screen and (max-width: 48em) {
+      flex-direction: column;
+    }
+  }
+}
+
+.package {
+  border: 1px solid rgb(190, 190, 190);
+  padding: 3rem;
+  border-radius: 5px;
+  text-align: center;
+  margin: 2rem;
+  font-size: 2rem;
+  transition: transform 0.2s;
+
+  &:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
+
+    @media screen and (max-width: 48em) {
+      transform: scale(1);
+    }
+  }
+}
+
+.package > * {
+  padding-bottom: 1rem;
+}
+
+.choose {
+  display: block;
+  background-color: #28d685;
+  text-decoration: none;
+  padding: 2rem;
+  text-transform: uppercase;
+  border-radius: 1rem;
+  color: white;
+  text-align: center;
+  margin-top: 2rem;
+}

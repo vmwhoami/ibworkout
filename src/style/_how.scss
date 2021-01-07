@@ -1,0 +1,45 @@
+.how {
+  min-height: 100vh;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &__h1 {
+    padding-top: 2rem;
+    font-size: 2rem;
+    width: 80vw;
+
+    @media screen and (max-width: 48em) {
+      width: 90vw;
+    }
+
+    h1 {
+      font-family: Arial, sans-serif;
+    }
+
+    p {
+      text-align: center;
+    }
+  }
+
+  &__description {
+    color: #7f7f8d;
+  }
+
+  &__vidcont {
+    width: 100%;
+    height: 70vh;
+    margin-top: 3rem;
+  }
+
+  &__vid {
+    width: 100%;
+    height: 100%;
+  }
+
+  &__video {
+    width: 100%;
+    height: 100%;
+  }
+}
