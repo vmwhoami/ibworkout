@@ -1,16 +1,16 @@
 @font-face {
   font-family: futura;
-  src: url("../assets/FuturaPTMedium.otf") format("opentype");
+  src: url("../assets/fonts/FuturaPTMedium.otf") format("opentype");
 }
 
 @font-face {
   font-family: futuralt;
-  src: url("../assets/FuturaPTLight.otf") format("opentype");
+  src: url("../assets/fonts/FuturaPTLight.otf") format("opentype");
 }
 
 @font-face {
   font-family: futurabd;
-  src: url("../assets/FuturaPTBold.otf") format("opentype");
+  src: url("../assets/fonts/FuturaPTBold.otf") format("opentype");
 }
 
 $futuraMd:futura, arial, sans-serif;
