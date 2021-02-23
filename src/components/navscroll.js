@@ -3,9 +3,6 @@ export default function scrollfade() {
     let timeout;
     return (...args) => {
       const contest = this;
-
-      // const args = arguments;
-
       const later = () => {
         timeout = null;
         if (!immediate) {
