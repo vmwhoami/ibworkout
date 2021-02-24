@@ -4,6 +4,7 @@ import Head from '../pages/head';
 import How from '../pages/how';
 import Why from '../pages/why';
 import Steps from '../pages/steps';
+import Trainer from '../pages/trainer'
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
       <How />
       <Why />
       <Steps />
+      <Trainer />
     </div>
   );
 
