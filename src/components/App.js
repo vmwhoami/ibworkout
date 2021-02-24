@@ -7,6 +7,7 @@ import Steps from '../pages/steps';
 import Trainer from '../pages/trainer';
 import Types from '../pages/types';
 import Footer from '../pages/footer';
+import Messenging from '../components/messaging'
 
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
       <Trainer />
       <Types />
       <Footer />
+      <Messenging />
     </div>
   );
 

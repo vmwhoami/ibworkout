@@ -1,31 +1,23 @@
 import React from 'react';
-
+import { Logo, Instagram, Vk, FaceBk } from '../components/Svgs'
 const Footer = () => {
   return (
-    <footer class="footer">
-      <div class="footer__social">
-        <div class="footer__logo">
-          <a class="footer__atag" target="blank" href="#">
-            {/* <svg class="footer__svglogo">
-            <use xlink:href="./sprite.svg#icon-ibw"></use>
-          </svg> */}
+    <footer className="footer">
+      <div className="footer__social">
+        <div className="footer__logo">
+          <a className="footer__atag" target="blank" href="#">
+            <Logo styling={"footer__svglogo"} />
           </a>
         </div>
-        <div class="footer__socialbtns">
-          <a class="footer__roundbtn" target="blank" href="https://www.instagram.com/innabogdan/">
-            {/* <svg class="footer__svg">
-            <use xlink:href="./sprite.svg#icon-instagram"></use>
-          </svg> */}
+        <div className="footer__socialbtns">
+          <a className="footer__roundbtn" target="blank" href="https://www.instagram.com/innabogdan/">
+            <Instagram styling={"footer__svg"} />
           </a>
-          <a class="footer__roundbtn" target="blank" href="http://">
-            {/* <svg class="footer__svg">
-            <use xlink:href="./sprite.svg#icon-vk1"></use>
-          </svg> */}
+          <a className="footer__roundbtn" target="blank" href="http://">
+            <Vk styling={"footer__svg"} />
           </a>
-          <a class="footer__roundbtn" target="blank" href="https://www.facebook.com/profile.php?id=100026188263111">
-            {/* <svg class="footer__svg">
-            <use xlink:href="./sprite.svg#icon-facebook-official"></use>
-          </svg> */}
+          <a className="footer__roundbtn" target="blank" href="https://www.facebook.com/profile.php?id=100026188263111">
+            <FaceBk styling={"footer__svg"} />
           </a>
         </div>
       </div>

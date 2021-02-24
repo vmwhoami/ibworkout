@@ -17,7 +17,7 @@ const MobileNav = () => {
     <div className="navigation">
       <div className="navigation__logo">
         <a className="logo__atag" href="#">
-          <Logo />
+          <Logo styling={"logo__svg"} />
         </a>
       </div>
       <input type="checkbox" name="nav" id="nav" className="navigation-checkbox" />
@@ -42,7 +42,7 @@ const DescktopNav = () => {
     <div className="nav__container">
       <div className="nav__logo">
         <a className="logo__atag" target="blank" href="#">
-          <Logo />
+          <Logo styling={"logo__svg"} />
         </a>
       </div>
       <div className="nav__list">
@@ -60,13 +60,13 @@ const SocialBtns = () => {
   return (
     <div className="nav__socialbtns">
       <a className="nav__roundbtn" target="blank" href="https://www.instagram.com/innabogdan/">
-        <Instagram />
+        <Instagram styling={"nav__svg"} />
       </a>
       <a className="nav__roundbtn" target="blank" href="http://">
-        <Vk />
+        <Vk styling={"nav__svg"} />
       </a >
       <a className="nav__roundbtn" target="blank" href="https://www.facebook.com/profile.php?id=100026188263111">
-        <FaceBk />
+        <FaceBk styling={"nav__svg"} />
       </a >
 
     </div >
