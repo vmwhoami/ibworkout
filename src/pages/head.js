@@ -1,4 +1,5 @@
 import React from 'react';
+import ProbeBtn from '../components/probeBtn';
 
 const Head = () => {
   return (
@@ -9,7 +10,7 @@ const Head = () => {
         <p>В реальном времени.</p>
         <p>Когда удобно.</p>
         <p>Где удобно.</p>
-        <a href="#" className="head__btn">Записаться на пробную тренировку</a>
+        < ProbeBtn styling={"head__btn"} />
       </div>
     </div>
   )

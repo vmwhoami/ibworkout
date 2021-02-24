@@ -28,9 +28,12 @@
   }
 
   &__vidcont {
-    width: 100%;
+    width: 80vw;
     height: 70vh;
     margin-top: 3rem;
+    @media screen and (max-width: 48em) {
+      width: 95vw;
+    }
   }
 
   &__vid {
