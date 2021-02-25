@@ -9,7 +9,7 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      // favicon: './src/assets/images/ibw.svg',
+      favicon: './src/assets/ibworkoutfav/favicon-32x32.png',
       template: './src/index.html',
     }),
   ],
