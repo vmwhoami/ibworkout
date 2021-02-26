@@ -20,7 +20,7 @@ const users = [
     id: 3,
     name: "Galina Melnic",
     image: "https://instagram.fkiv4-1.fna.fbcdn.net/v/t51.2885-15/sh0.08/e35/p640x640/151681076_123032746396353_3596239025757140261_n.jpg?_nc_ht=instagram.fkiv4-1.fna.fbcdn.net&_nc_cat=109&_nc_ohc=za5WqN6QoRcAX_Vm5M-&tp=1&oh=645e428e671b046f3eee718b0b09a45d&oe=60631D51",
-    comment: string,
+    comment: "I don't like it it is bullshit",
     instaLink: "https://www.instagram.com/lilu.ojovan/"
 
   },
