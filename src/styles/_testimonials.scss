@@ -44,3 +44,16 @@
     }
   }
 }
+
+.switch-container{
+  display: flex;
+  min-width: 20vw;
+  justify-content: space-between;
+}
+
+
+.switch-icon{
+  fill: brown;
+  width: 5rem;
+  height: 5rem;
+}
