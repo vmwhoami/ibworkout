@@ -24,7 +24,11 @@ const Form = () => {
           </select>
         </div>
         <div className="textarea">
-          <textarea name="comment" className="textarea__text" placeholder="Укажите, пожалуйста, ваш город или часовой пояс. Как с вами связаться (телефон, whatsapp и т.д.) и в какое время? Промокод (если есть) и прочие комментарии." rows="4" spellcheck="false"></textarea>
+          <textarea name="comment"
+            className="textarea__text"
+            placeholder="Укажите, пожалуйста, ваш город или часовой пояс. Как с вами связаться (телефон, whatsapp и т.д.) и в какое время? Промокод (если есть) и прочие комментарии."
+            rows="4"
+            spellCheck="false" />
         </div>
       </form>
     </div>
