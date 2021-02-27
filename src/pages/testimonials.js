@@ -5,7 +5,7 @@ import { Instagram, NextIcon, PrevIcon } from '../components/Svgs';
 const Testimonials = () => {
   const [index, setIndex] = useState(0);
   const {
-    id, name, image, comment, instaLink,
+    name, image, comment, instaLink,
   } = users[index];
   const checkNum = num => {
     if (num < 0) {
@@ -43,8 +43,8 @@ const Testimonials = () => {
             </a>
             <p>{comment}</p>
             <div className="switch-container">
-              <a className="switch-btn" onClick={prevAction}><PrevIcon styling="switch-icon" /></a>
-              <a className="switch-btn" onClick={nextAction}><NextIcon styling="switch-icon" /></a>
+              <button aria-label="previous-btn" type="button" className="switch-btn" onKeyDown={e => (e.key === 37 ? prevAction : null)} onClick={prevAction}><PrevIcon styling="switch-icon" /></button>
+              <button aria-label="next-btn" type="button" className="switch-btn" onKeyDown={e => (e.key === 40 ? nextAction : null)} onClick={nextAction}><NextIcon styling="switch-icon" /></button>
             </div>
           </div>
         </div>

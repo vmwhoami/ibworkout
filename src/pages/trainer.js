@@ -4,7 +4,7 @@ import inna from '../assets/images/Inngirea.jpg';
 const Trainer = () => (
   <div className="trainer" id="trainer">
     <h3 className="hcenter text-white">Tренер</h3>
-    <a className="trainer__container" href="#">
+    <a className="trainer__container" href="https://www.instagram.com/innabogdan/">
       <div className="trainer__imgcontainer">
         <img src={inna} alt="Inna" />
       </div>

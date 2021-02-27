@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import functional from '../assets/images/functional.jpg';
 import silovie from '../assets/images/silovie.jpg';
 import yoga from '../assets/images/yoga.jpg';
@@ -68,3 +69,8 @@ const Img = props => {
 };
 
 export default Types;
+
+Img.propTypes = {
+  adress: PropTypes.string.isRequired,
+  alt: PropTypes.string.isRequired,
+};

@@ -7,9 +7,9 @@ const Footer = () => (
   <footer className="footer">
     <div className="footer__social">
       <div className="footer__logo">
-        <a className="footer__atag" target="blank" href="#">
+        <button type="button" aria-label="footer-logo" className="footer__atag" target="blank" href="#">
           <Logo styling="footer__svglogo" />
-        </a>
+        </button>
       </div>
       <div className="footer__socialbtns">
         <a className="footer__roundbtn" target="blank" href="https://www.instagram.com/innabogdan/">

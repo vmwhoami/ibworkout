@@ -31,6 +31,9 @@ const Form = () => (
           spellCheck="false"
         />
       </div>
+      <div className="btncontainer">
+        <button type="submit" className="formbtn">Отправить</button>
+      </div>
     </form>
   </div>
 );
