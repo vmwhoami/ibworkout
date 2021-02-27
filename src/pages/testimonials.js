@@ -14,7 +14,6 @@ const Testimonials = () => {
     }
     return num
   }
-
   const prevAction = () => {
     setIndex((index) => {
       let current = index - 1;
@@ -45,7 +44,6 @@ const Testimonials = () => {
             </a>
             <div className="switch-container">
               <a className="switch-btn" onClick={prevAction}><PrevIcon styling={"switch-icon"} /></a>
-
               <a className="switch-btn" onClick={nextAction}><NextIcon styling={"switch-icon"} /></a>
             </div>
           </div>
