@@ -33,7 +33,6 @@ const Testimonials = () => {
       <div className="testimonials__container">
         <div className="client">
           <div className="client__comment">
-            <p>{comment}</p>
             <div className="client__img">
               <img src={image} alt="client" />
             </div>
@@ -42,6 +41,7 @@ const Testimonials = () => {
             <a className="nav__roundbtn" target="blank" href={instaLink}>
               <Instagram styling={"nav__svg"} />
             </a>
+            <p>{comment}</p>
             <div className="switch-container">
               <a className="switch-btn" onClick={prevAction}><PrevIcon styling={"switch-icon"} /></a>
               <a className="switch-btn" onClick={nextAction}><NextIcon styling={"switch-icon"} /></a>
