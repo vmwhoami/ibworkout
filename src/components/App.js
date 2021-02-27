@@ -7,27 +7,24 @@ import Steps from '../pages/steps';
 import Trainer from '../pages/trainer';
 import Types from '../pages/types';
 import Footer from '../pages/footer';
-import Messenging from '../components/messaging';
+import Messenging from './messaging';
 import Testimonials from '../pages/testimonials';
 import Form from '../pages/contact';
 
-const App = () => {
-  return (
-    <div className="container">
-      <Nav />
-      <Head />
-      <How />
-      <Why />
-      <Steps />
-      <Trainer />
-      <Types />
-      <Testimonials />
-      <Form />
-      <Footer />
-      <Messenging />
-    </div>
-  );
-
-}
+const App = () => (
+  <div className="container">
+    <Nav />
+    <Head />
+    <How />
+    <Why />
+    <Steps />
+    <Trainer />
+    <Types />
+    <Testimonials />
+    <Form />
+    <Footer />
+    <Messenging />
+  </div>
+);
 
 export default App;
