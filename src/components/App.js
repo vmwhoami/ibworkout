@@ -9,7 +9,7 @@ import Types from '../pages/types';
 import Footer from '../pages/footer';
 import Messenging from '../components/messaging';
 import Testimonials from '../pages/testimonials';
-
+import Form from '../pages/contact';
 
 const App = () => {
   return (
@@ -22,6 +22,7 @@ const App = () => {
       <Trainer />
       <Types />
       <Testimonials />
+      <Form />
       <Footer />
       <Messenging />
     </div>
