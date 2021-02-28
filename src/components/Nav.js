@@ -32,7 +32,10 @@ const Nav = () => {
 export default Nav;
 
 const MobileNav = () => {
-
+  const checkBoxChecker = useRef();
+  const unsetCheckbox = () => {
+    return checkBoxChecker.current.checked = !checkBoxChecker.current.checked
+  }
   return (
     <div className="navigation">
       <div className="navigation__logo">
@@ -40,7 +43,7 @@ const MobileNav = () => {
           <Logo styling="logo__svg" />
         </button>
       </div>
-      <input type="checkbox" name="nav" id="nav" className="navigation-checkbox" />
+      <input type="checkbox" ref={checkBoxChecker} name="nav" id="nav" className="navigation-checkbox" />
       <label htmlFor="nav" className="navigation-handle">
         <span className="navigation-icon">&nbsp;</span>
       </label>
@@ -48,8 +51,8 @@ const MobileNav = () => {
       <div className="navigation-nav">
         <ul className="navigation-list">
           <li className="navigation-item"><a href="#trainer" className="navigation-link" onClick={unsetCheckbox}> Тренер </a></li>
-          <li className="navigation-item"><a href="#testimonials" className="navigation-link"> Отзывы</a></li>
-          <li className="navigation-item"><a href="#form" className="navigation-link"> Записаться</a></li>
+          <li className="navigation-item"><a href="#testimonials" className="navigation-link" onClick={unsetCheckbox}> Отзывы</a></li>
+          <li className="navigation-item"><a href="#form" className="navigation-link" onClick={unsetCheckbox}> Записаться</a></li>
         </ul>
       </div>
     </div>
