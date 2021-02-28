@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import {
   Logo, Instagram, Vk, FaceBk,
 } from './Svgs';
@@ -31,27 +31,30 @@ const Nav = () => {
 
 export default Nav;
 
-const MobileNav = () => (
-  <div className="navigation">
-    <div className="navigation__logo">
-      <a className="logo__atag" href="#">
-        <Logo styling="logo__svg" />
-      </a>
+const MobileNav = () => {
+
+  return (
+    <div className="navigation">
+      <div className="navigation__logo">
+        <button className="logo__atag" href="#">
+          <Logo styling="logo__svg" />
+        </button>
+      </div>
+      <input type="checkbox" name="nav" id="nav" className="navigation-checkbox" />
+      <label htmlFor="nav" className="navigation-handle">
+        <span className="navigation-icon">&nbsp;</span>
+      </label>
+      <div className="navigation-background">&nbsp;</div>
+      <div className="navigation-nav">
+        <ul className="navigation-list">
+          <li className="navigation-item"><a href="#trainer" className="navigation-link" onClick={unsetCheckbox}> Тренер </a></li>
+          <li className="navigation-item"><a href="#testimonials" className="navigation-link"> Отзывы</a></li>
+          <li className="navigation-item"><a href="#form" className="navigation-link"> Записаться</a></li>
+        </ul>
+      </div>
     </div>
-    <input type="checkbox" name="nav" id="nav" className="navigation-checkbox" />
-    <label htmlFor="nav" className="navigation-handle">
-      <span className="navigation-icon">&nbsp;</span>
-    </label>
-    <div className="navigation-background">&nbsp;</div>
-    <div className="navigation-nav">
-      <ul className="navigation-list">
-        <li className="navigation-item"><a href="#trainer" className="navigation-link"> Тренер </a></li>
-        <li className="navigation-item"><a href="#testimonials" className="navigation-link"> Отзывы</a></li>
-        <li className="navigation-item"><a href="#form" className="navigation-link"> Записаться</a></li>
-      </ul>
-    </div>
-  </div>
-);
+  )
+};
 
 const DescktopNav = () => (
   <div className="nav__container">
