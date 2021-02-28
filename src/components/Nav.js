@@ -33,17 +33,19 @@ export default Nav;
 
 const MobileNav = () => {
   const checkBoxChecker = useRef();
-  const unsetCheckbox = () => {
-    return checkBoxChecker.current.checked = !checkBoxChecker.current.checked
+  function unsetCheckbox() {
+    checkBoxChecker.current.checked = !checkBoxChecker.current.checked;
+    return null;
   }
   return (
     <div className="navigation">
       <div className="navigation__logo">
-        <button className="logo__atag" href="#">
+        <button type="button" className="logo__atag" href="#">
           <Logo styling="logo__svg" />
         </button>
       </div>
       <input type="checkbox" ref={checkBoxChecker} name="nav" id="nav" className="navigation-checkbox" />
+      <>{ /* eslint-disable-next-line jsx-a11y/label-has-associated-control */}</>
       <label htmlFor="nav" className="navigation-handle">
         <span className="navigation-icon">&nbsp;</span>
       </label>
@@ -56,13 +58,13 @@ const MobileNav = () => {
         </ul>
       </div>
     </div>
-  )
+  );
 };
 
 const DescktopNav = () => (
   <div className="nav__container">
     <div className="nav__logo">
-      <a className="logo__atag" target="blank" href="#">
+      <a className="logo__atag" target="blank" href="#trainer">
         <Logo styling="logo__svg" />
       </a>
     </div>

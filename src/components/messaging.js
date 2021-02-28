@@ -6,10 +6,11 @@ import {
 const Messenging = () => (
   <div className="messanging">
     <input className="messanging__checkbox" type="checkbox" name="checkbox" id="toggle" />
+    <>{ /* eslint-disable-next-line jsx-a11y/label-has-associated-control */}</>
     <label className="messanging__label" htmlFor="toggle">
-      <a className="messanging__cover">
+      <span className="messanging__cover">
         <MessageSvg styling="messanging__mesaj" />
-      </a>
+      </span>
     </label>
     <a href="http://m.me/vmwhoami" target="blank" className="messanging__messenger shaper">
       <MessengerSvg styling="messanging__svg" />
