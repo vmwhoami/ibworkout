@@ -7,8 +7,8 @@
   background-color: #f2f2f2;
   z-index: 2;
   box-shadow: rgba(0, 0, 0, 0.2) 0 1px 3px;
-  transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
-  transition: background-color 1s;
+  // transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  transition: background-color 1s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 
   &__container {
     display: flex;
@@ -97,8 +97,6 @@
 .faded {
   background-color: rgba(255, 255, 255, 0.4);
 }
-
-
 
 .logo__atag {
   display: flex;

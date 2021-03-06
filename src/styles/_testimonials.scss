@@ -17,14 +17,14 @@
 
   &__img {
     width: 30rem;
-   height: 30rem;
+    height: 30rem;
     border-radius: 50%;
-    border:1rem solid $footerbg;
+    border: 1rem solid $footerbg;
 
     img {
       width: 100%;
       height: 100%;
-      object-fit:cover;
+      object-fit: cover;
       border-radius: 50%;
     }
   }
@@ -46,17 +46,18 @@
   }
 }
 
-.switch-container{
+.switch-container {
   display: flex;
   min-width: 20vw;
   justify-content: space-between;
 }
 
-.switch-btn{
-  border: none; 
-  background:none;
+.switch-btn {
+  border: none;
+  background: none;
 }
-.switch-icon{
+
+.switch-icon {
   fill: $footerbg;
   width: 5rem;
   height: 5rem;
