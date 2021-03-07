@@ -45,33 +45,33 @@
     }
   }
 }
-.instagramLink{
- 
+
+.instagramLink {
   height: 4rem;
   display: inline-flex;
   justify-content: center;
   align-items: center;
   text-decoration: none;
   margin-top: 2rem;
-  
-  h5{
+
+  h5 {
     font-size: 2rem;
     padding: 0;
-   margin: 0;
-   font-family: $futuraLt;
+    margin: 0;
+    font-family: $futuraLt;
     text-transform: uppercase;
-   color: $footerbg;
-   margin-right: 1rem;
+    color: $footerbg;
+    margin-right: 1rem;
   }
 }
 
-
 //  linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
-.instagramSvg{
+.instagramSvg {
   width: 2rem;
   height: 2rem;
   fill: #c13584;
 }
+
 .switch-container {
   display: flex;
   min-width: 20vw;
@@ -88,4 +88,3 @@
   width: 5rem;
   height: 5rem;
 }
-

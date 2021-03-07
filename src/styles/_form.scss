@@ -3,6 +3,7 @@
   position: relative;
   padding: 1rem;
 
+
   &::before {
     content: "";
     position: absolute;
@@ -13,7 +14,7 @@
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.6)), url("../assets/images/contact.jpg");
     background-size: cover;
     filter: grayscale(50%) brightness(70%);
-    z-index: -1;
+    z-index: 1;
   }
 
   &__container {
@@ -36,6 +37,7 @@
       border-radius: 5px;
       border: none;
       margin: 2rem;
+      z-index: 4;
     }
   }
 }
@@ -52,6 +54,7 @@
   cursor: inherit;
   line-height: inherit;
   outline: none;
+  z-index: 4;
 
   &__select {
     padding: 2rem;
@@ -67,6 +70,7 @@
   padding: 2rem;
   margin: 0;
   width: 100%;
+  z-index: 4;
 
   &__text {
     border: none;
