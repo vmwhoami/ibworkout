@@ -3,8 +3,7 @@
   position: relative;
   padding: 1rem;
 
-
-  &::before {
+  &::after {
     content: "";
     position: absolute;
     top: 0;
@@ -14,30 +13,28 @@
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.6)), url("../assets/images/contact.jpg");
     background-size: cover;
     filter: grayscale(50%) brightness(70%);
-    z-index: 1;
+    z-index: 0;
   }
 
-  &__container {
-    z-index: 10;
-    max-width: 50vw;
-    margin: 0 auto;
-
-    @media screen and (max-width: 48em) {
-      max-width: 95vw;
-    }
-  }
 
   &__form {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-items: center;
+    max-width: 50vw;
+    margin: 0 auto;
+    margin-top: 8rem;
+
+    @media screen and (max-width: 48em) {
+      max-width: 90vw;
+    }
 
     input {
       padding: 2rem;
       border-radius: 5px;
       border: none;
       margin: 2rem;
-      z-index: 4;
+     z-index: 4;
     }
   }
 }
@@ -95,4 +92,15 @@
   border: none;
   font-size: 2rem;
   text-transform: uppercase;
+}
+
+.formHeading{
+  z-index: 10;
+ 
+  font-size: 2.5rem;
+  position: absolute;
+  top: 2rem;
+  left: 50%;
+  transform: translate(-50%);
+  color: #fff;
 }
