@@ -36,10 +36,9 @@ const Testimonials = () => {
             <div className="client__img">
               <img src={image} alt="client" />
             </div>
-
-            <h5>{name}</h5>
-            <a className="nav__roundbtn" target="blank" href={instaLink}>
-              <Instagram styling="nav__svg" />
+            <a className="instagramLink" target="blank" href={instaLink}>
+              <h5>{name}</h5>
+              <Instagram styling="instagramSvg" />
             </a>
             <p>{comment}</p>
             <div className="switch-container">
