@@ -1,9 +1,19 @@
 import React from 'react';
+import PhoneInput from 'react-phone-input-2';
+import 'react-phone-input-2/lib/style.css';
 
+const options = [
+  'Держать все тело в тонусе',
+  'Прокачка мышц пресса, ног и ягодиц',
+  ' Увеличение силы / набор массы',
+  'Снижение веса',
+  'Улучшить гибкость и растяжку',
+  'Другое',
+];
 const Form = () => (
   <>
     <div className="form" id="form">
-      <h3 class="formHeading">Записаться на консультацию c тренером</h3>
+      <h3 className="formHeading">Записаться на консультацию c тренером</h3>
       <form
         action="POST"
         name="contact"
@@ -26,49 +36,23 @@ const Form = () => (
           id="email"
           placeholder="E-mail"
         />
-        <input
-          type="tel"
-          name="Телефон"
-          id="telephone"
-          placeholder="Телефон"
+
+        <PhoneInput
+          country="md"
         />
         <div className="select">
-          <select className="select__select" name=" цель  тренировок">
-            <option value="">Выберите цель ваших тренировок</option>
-            <option value="Держать все тело в тонусе">
-              Держать все тело в тонусе
-          </option>
-            <option value="Прокачка мышц пресса, ног и ягодиц">
-              Прокачка мышц пресса, ног и ягодиц
-          </option>
-            <option value="Увеличение силы / набор массы">
-              Увеличение силы / набор массы
-          </option>
-            <option value="Снижение веса">
-              Снижение веса
-          </option>
-            <option value="Здоровая спина ">
-              Здоровая спина
-          </option>
-            <option value="Научиться регулярно медитировать">
-              Научиться регулярно медитировать
-          </option>
-            <option value="Йога / Пилатес для здоровья">
-              Йога / Пилатес для здоровья
-          </option>
-            <option value="Улучшить гибкость и растяжку">
-              Улучшить гибкость и растяжку
-          </option>
-            <option value="Другое">
-              Другое
-          </option>
+          <h2>Выберите цель ваших тренировок</h2>
+          <select className="select__select" name="цель  тренировок">
+            {options.map(option => <option key={option} value="option">{option}</option>)}
           </select>
         </div>
         <div className="textarea">
           <textarea
             name="comment"
             className="textarea__text"
-            placeholder="Укажите, пожалуйста, ваш город или часовой пояс. Как с вами связаться (телефон, whatsapp и т.д.) и в какое время? Промокод (если есть) и прочие комментарии."
+            placeholder="Укажите, пожалуйста, ваш город или часовой пояс.
+             Как с вами связаться (телефон, whatsapp и т.д.) и в какое время? Промокод (если есть)
+              и прочие комментарии."
             rows="4"
             spellCheck="false"
           />
@@ -80,5 +64,4 @@ const Form = () => (
     </div>
   </>
 );
-
 export default Form;

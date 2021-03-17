@@ -6,7 +6,9 @@
 
   &__container {
     max-width: 80rem;
+    height: 90vh;
     display: flex;
+    align-items: center;
     margin: 0 auto;
   }
 }
@@ -80,6 +82,8 @@
 .switch-btn {
   border: none;
   background: none;
+  height: 100%;
+  outline: none;
 }
 
 .switch-icon {

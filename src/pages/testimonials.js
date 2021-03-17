@@ -47,7 +47,6 @@ const Testimonials = () => {
         </div>
         <button aria-label="next-btn" type="button" className="switch-btn" onKeyDown={e => (e.key === 40 ? nextAction : null)} onClick={nextAction}><NextIcon styling="switch-icon" /></button>
 
-
       </div>
 
     </div>
