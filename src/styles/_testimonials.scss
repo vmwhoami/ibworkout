@@ -6,6 +6,7 @@
 
   &__container {
     max-width: 80rem;
+    display: flex;
     margin: 0 auto;
   }
 }
@@ -29,11 +30,12 @@
     }
   }
 
-  &__comment {
+  &__testimonial {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 2rem;
+
 
     p {
       margin-bottom: 1rem;
@@ -43,6 +45,8 @@
       padding-top: 1rem;
       font-size: 2.5rem;
     }
+
+
   }
 }
 
@@ -72,12 +76,7 @@
   fill: #c13584;
 }
 
-.switch-container {
-  display: flex;
-  min-width: 20vw;
-  justify-content: space-between;
-}
-
+ 
 .switch-btn {
   border: none;
   background: none;

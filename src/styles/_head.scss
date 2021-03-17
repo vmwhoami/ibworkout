@@ -33,10 +33,12 @@
 
   &__h1 {
     font-family: $futuraBd, Arial, sans-serif;
-    font-size: 6rem;
+    font-size: 5rem;
+    line-height: 5rem;
 
     @media screen and (max-width: 48em) {
-      font-size: 4rem;
+      font-size: 3rem;
+      line-height: 4rem;
     }
   }
 
@@ -54,5 +56,10 @@
   p {
     font-size: 2.5rem;
     font-family: $futuraMd, Arial, sans-serif;
+    @media screen and (max-width: 48em) {
+      font-size: 2rem;
+    line-height: 2.5rem;
+
+    }
   }
 }
